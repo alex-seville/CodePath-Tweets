@@ -7,12 +7,18 @@
 //
 
 #import "ASAppDelegate.h"
+#import "ASSplashScreenViewController.h"
 
 @implementation ASAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    ASSplashScreenViewController *splashScreen = [[ASSplashScreenViewController alloc] init];
+    
+    self.window.rootViewController = splashScreen;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

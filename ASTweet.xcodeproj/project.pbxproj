@@ -19,6 +19,13 @@
 		65B74F1418E3EE2300169B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B74EFC18E3EE2300169B3A /* UIKit.framework */; };
 		65B74F1C18E3EE2300169B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B74F1A18E3EE2300169B3A /* InfoPlist.strings */; };
 		65B74F1E18E3EE2300169B3A /* ASTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B74F1D18E3EE2300169B3A /* ASTweetTests.m */; };
+		65B74F2A18E3EEC700169B3A /* ASSplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B74F2818E3EEC700169B3A /* ASSplashScreenViewController.m */; };
+		65B74F2B18E3EEC700169B3A /* ASSplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B74F2918E3EEC700169B3A /* ASSplashScreenViewController.xib */; };
+		65B74F3018E3F06D00169B3A /* ASTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B74F2E18E3F06D00169B3A /* ASTimelineViewController.m */; };
+		65B74F3118E3F06D00169B3A /* ASTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B74F2F18E3F06D00169B3A /* ASTimelineViewController.xib */; };
+		65B74F3518E3F09200169B3A /* ASLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B74F3318E3F09200169B3A /* ASLoginViewController.m */; };
+		65B74F3618E3F09200169B3A /* ASLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B74F3418E3F09200169B3A /* ASLoginViewController.xib */; };
+		65B74F3A18E3F94900169B3A /* ASTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B74F3918E3F94900169B3A /* ASTwitterAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,17 @@
 		65B74F1918E3EE2300169B3A /* ASTweetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASTweetTests-Info.plist"; sourceTree = "<group>"; };
 		65B74F1B18E3EE2300169B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65B74F1D18E3EE2300169B3A /* ASTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTweetTests.m; sourceTree = "<group>"; };
+		65B74F2718E3EEC700169B3A /* ASSplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASSplashScreenViewController.h; path = ../ViewControllers/ASSplashScreenViewController.h; sourceTree = "<group>"; };
+		65B74F2818E3EEC700169B3A /* ASSplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASSplashScreenViewController.m; path = ../ViewControllers/ASSplashScreenViewController.m; sourceTree = "<group>"; };
+		65B74F2918E3EEC700169B3A /* ASSplashScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASSplashScreenViewController.xib; path = ../ViewControllers/ASSplashScreenViewController.xib; sourceTree = "<group>"; };
+		65B74F2D18E3F06D00169B3A /* ASTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTimelineViewController.h; path = ViewControllers/ASTimelineViewController.h; sourceTree = SOURCE_ROOT; };
+		65B74F2E18E3F06D00169B3A /* ASTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTimelineViewController.m; path = ViewControllers/ASTimelineViewController.m; sourceTree = SOURCE_ROOT; };
+		65B74F2F18E3F06D00169B3A /* ASTimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASTimelineViewController.xib; path = ViewControllers/ASTimelineViewController.xib; sourceTree = SOURCE_ROOT; };
+		65B74F3218E3F09200169B3A /* ASLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASLoginViewController.h; path = ViewControllers/ASLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		65B74F3318E3F09200169B3A /* ASLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASLoginViewController.m; path = ViewControllers/ASLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		65B74F3418E3F09200169B3A /* ASLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASLoginViewController.xib; path = ViewControllers/ASLoginViewController.xib; sourceTree = SOURCE_ROOT; };
+		65B74F3818E3F94900169B3A /* ASTwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTwitterAPI.h; path = DAL/ASTwitterAPI.h; sourceTree = "<group>"; };
+		65B74F3918E3F94900169B3A /* ASTwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTwitterAPI.m; path = DAL/ASTwitterAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,8 @@
 		65B74EEC18E3EE2300169B3A = {
 			isa = PBXGroup;
 			children = (
+				65B74F3718E3F90100169B3A /* DAL */,
+				65B74F2C18E3EF4D00169B3A /* ViewControllers */,
 				65B74EFE18E3EE2300169B3A /* ASTweet */,
 				65B74F1718E3EE2300169B3A /* ASTweetTests */,
 				65B74EF718E3EE2300169B3A /* Frameworks */,
@@ -142,6 +162,32 @@
 				65B74F1A18E3EE2300169B3A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65B74F2C18E3EF4D00169B3A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				65B74F2718E3EEC700169B3A /* ASSplashScreenViewController.h */,
+				65B74F2818E3EEC700169B3A /* ASSplashScreenViewController.m */,
+				65B74F2918E3EEC700169B3A /* ASSplashScreenViewController.xib */,
+				65B74F2D18E3F06D00169B3A /* ASTimelineViewController.h */,
+				65B74F2E18E3F06D00169B3A /* ASTimelineViewController.m */,
+				65B74F2F18E3F06D00169B3A /* ASTimelineViewController.xib */,
+				65B74F3218E3F09200169B3A /* ASLoginViewController.h */,
+				65B74F3318E3F09200169B3A /* ASLoginViewController.m */,
+				65B74F3418E3F09200169B3A /* ASLoginViewController.xib */,
+			);
+			name = ViewControllers;
+			path = ASTweet;
+			sourceTree = "<group>";
+		};
+		65B74F3718E3F90100169B3A /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				65B74F3818E3F94900169B3A /* ASTwitterAPI.h */,
+				65B74F3918E3F94900169B3A /* ASTwitterAPI.m */,
+			);
+			name = DAL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B74F0318E3EE2300169B3A /* InfoPlist.strings in Resources */,
+				65B74F2B18E3EEC700169B3A /* ASSplashScreenViewController.xib in Resources */,
 				65B74F0B18E3EE2300169B3A /* Images.xcassets in Resources */,
+				65B74F3618E3F09200169B3A /* ASLoginViewController.xib in Resources */,
+				65B74F3118E3F06D00169B3A /* ASTimelineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +291,10 @@
 			files = (
 				65B74F0918E3EE2300169B3A /* ASAppDelegate.m in Sources */,
 				65B74F0518E3EE2300169B3A /* main.m in Sources */,
+				65B74F2A18E3EEC700169B3A /* ASSplashScreenViewController.m in Sources */,
+				65B74F3518E3F09200169B3A /* ASLoginViewController.m in Sources */,
+				65B74F3A18E3F94900169B3A /* ASTwitterAPI.m in Sources */,
+				65B74F3018E3F06D00169B3A /* ASTimelineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASTweet/ASTweet-Prefix.pch";
 				INFOPLIST_FILE = "ASTweet/ASTweet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASTweet/ASTweet-Prefix.pch";
 				INFOPLIST_FILE = "ASTweet/ASTweet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
