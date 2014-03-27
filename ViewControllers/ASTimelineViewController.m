@@ -7,6 +7,7 @@
 //
 
 #import "ASTimelineViewController.h"
+#import "ASLoginViewController.h"
 
 @interface ASTimelineViewController ()
 
@@ -27,6 +28,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    ASLoginViewController *vc = [[ASLoginViewController alloc] initWithNibName:@"ASLoginViewController" bundle:nil];
+    vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    
+    [self presentViewController:vc animated:YES completion: nil];
 }
 
 - (void)didReceiveMemoryWarning

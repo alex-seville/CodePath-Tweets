@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BDBOAuth1RequestOperationManager.h"
 
 @interface ASTwitterAPI : BDBOAuth1RequestOperationManager
 

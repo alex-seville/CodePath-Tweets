@@ -17,7 +17,9 @@
     
     ASSplashScreenViewController *splashScreen = [[ASSplashScreenViewController alloc] init];
     
-    self.window.rootViewController = splashScreen;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:splashScreen];
+    
+    self.window.rootViewController = nav;
     
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

@@ -10,4 +10,15 @@
 
 @implementation ASTwitterAPI
 
++ (ASTwitterAPI *)instance {
+    static ASTwitterAPI *instance = nil;
+    static dispatch_once_t pred;
+    dispatch_once(&pred, ^{
+        instance = [[ASTwitterAPI alloc] init];//]WithBaseUrl:[NSURL api.twitter.com] consumerkey: consumersecret: ];
+        /* store these in a strings file */
+    });
+    
+    return instance;
+}
+
 @end

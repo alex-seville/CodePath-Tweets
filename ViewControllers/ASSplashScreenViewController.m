@@ -7,6 +7,8 @@
 //
 
 #import "ASSplashScreenViewController.h"
+#import "ASTimelineViewController.h"
+
 
 @interface ASSplashScreenViewController ()
 
@@ -26,7 +28,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    int64_t delayInSeconds = 2;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [self.navigationController pushViewController:[[ASTimelineViewController alloc] init] animated:YES];
+    });
+    
     // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

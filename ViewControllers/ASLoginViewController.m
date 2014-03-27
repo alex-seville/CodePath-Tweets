@@ -9,6 +9,7 @@
 #import "ASLoginViewController.h"
 
 @interface ASLoginViewController ()
+- (IBAction)signinButton:(id)sender;
 
 @end
 
@@ -35,4 +36,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)signinButton:(id)sender {
+    [self dismissViewControllerAnimated:YES completion: nil];
+}
 @end
