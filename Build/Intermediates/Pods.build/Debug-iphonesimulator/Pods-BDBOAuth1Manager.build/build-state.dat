@@ -1,0 +1,376 @@
+TPods-BDBOAuth1Manager
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053273EA000000000000003B4
+t1395080864
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053273EA4000000000000019E
+t1395080868
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053273EB60000000000000ADC
+t1395080886
+s2780
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o
+t1395950643
+s38332
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o
+t1395950643
+s71164
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o
+t1395950643
+s36892
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o
+t1395950643
+s13272
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o
+t1395950643
+s6664
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o
+t1395950643
+s3492
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager.LinkFileList
+c0000000053348433000000000000041A
+t1395950643
+s1050
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch
+t1395950643
+s126220
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch
+t1395950643
+s126648
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a
+t1395950643
+s171664
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+c000000005333C4AA0000000000001192
+t1395901610
+s4498
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h
+c000000005333C4AA00000000000048F0
+t1395901610
+s18672
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+c000000005333C4AA00000000000038E4
+t1395901610
+s14564
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+c000000005333C4AA0000000000001D1F
+t1395901610
+s7455
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+c000000005333C4AA000000000000141B
+t1395901610
+s5147
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+c000000005333C4AA0000000000004621
+t1395901610
+s17953
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+c000000005333C4AA0000000000005009
+t1395901610
+s20489
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+c000000005333C4AA00000000000027A4
+t1395901610
+s10148
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+c000000005333C4AA0000000000006DC8
+t1395901610
+s28104
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h
+c000000005333C4AB0000000000000974
+t1395901611
+s2420
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m
+c000000005333C4AB0000000000001791
+t1395901611
+s6033
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.h
+c000000005333C4AB00000000000009A9
+t1395901611
+s2473
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m
+c000000005333C4AB00000000000042E5
+t1395901611
+s17125
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.h
+c000000005333C4AB0000000000000A0E
+t1395901611
+s2574
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m
+c000000005333C4AB000000000000182C
+t1395901611
+s6188
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h
+c000000005333C4AB000000000000059C
+t1395901611
+s1436
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m
+c000000005333C4AB00000000000008DA
+t1395901611
+s2266
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h
+c000000005333C4AB0000000000000526
+t1395901611
+s1318
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m
+c000000005333C4AB0000000000000861
+t1395901611
+s2145
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m
+c000000005333C4AB0000000000000092
+t1395901611
+s146
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch
+c000000005333C4AB000000000000004D
+t1395901611
+s77
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-environment.h
+c000000005333C4AB00000000000008B2
+t1395901611
+s2226
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies38f8266fbde4b841^ee23276fbde4b841^---0#1#1#--18"Check dependencies36"BC4E4B08-F5A0-48AC-BE08-00264986A62E-
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.327240
+e417643443.396729
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m325"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraed853b3bbe4b841^a79265b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m0000000000000000^4385"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestOperationManager.o36"CEFE42B4-3DBE-4530-A974-866A9B598CF5-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.327447
+e417643443.407700
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m313"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8ae453b3bbe4b841^9a6068b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m0000000000000000^4349"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1RequestSerializer.o36"776198C8-5F46-4E3B-8526-7D3FED2AF752-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.327673
+e417643443.394875
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestSerializer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m307"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerebfc53b3bbe4b841^d21865b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m0000000000000000^4331"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1SessionManager.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/BDBOAuth1SessionManager.o36"F63178E2-9478-442E-A185-BCA56449D568-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.327927
+e417643443.370885
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m330"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler301054b3bbe4b841^faf25eb3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m0000000000000000^4389"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSDictionary+BDBOAuth1Manager.o36"65FA1381-44BF-4C1F-A40D-4D23AD14AFD5-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.328352
+e417643443.369618
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m
+d/Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m322"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler242a54b3bbe4b841^8c9f5eb3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m0000000000000000^4365"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/NSString+BDBOAuth1Manager.o36"AC911D16-880D-4809-80FE-9D95DE9A9CF0-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.328854
+e417643443.364715
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m281"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o Pods-BDBOAuth1Manager-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler904b54b3bbe4b841^4a5e5db3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m0000000000000000^4276"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o Pods-BDBOAuth1Manager-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-dummy.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager-dummy.o36"EB590A13-0EAA-4B7D-9018-2A9D0FF392AF-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CLibtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a normal i386
+s417643443.408397
+e417643443.414816
+r1
+xLibtool
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Libtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a normal i386127"Libtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a normal i3865f9868b3bbe4b841^48336ab3bbe4b841^---0#0#1#--1078"Libtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a normal i386    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -filelist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Objects-normal/i386/Pods-BDBOAuth1Manager.LinkFileList -framework Foundation -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-BDBOAuth1Manager.a36"2B1C6452-5305-4365-8E44-19719A7871CA-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.295808
+e417643443.326648
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch
+xPods-BDBOAuth1Manager-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Pods-BDBOAuth1Manager-prefix.pch289"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler10ca4bb3bbe4b841^999f53b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch0000000000000000^4116"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-cpxzezuebfrjmlbqabpgmwsvbtvd/Pods-BDBOAuth1Manager-prefix.pch.pch36"2579ACB5-4ED2-44A1-9CD7-FA779CE829BD-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417643443.295596
+e417643443.326642
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch
+xPods-BDBOAuth1Manager-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Pods-BDBOAuth1Manager-prefix.pch289"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler98be4bb3bbe4b841^33a353b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch0000000000000000^4127"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/Pods-BDBOAuth1Manager-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-BDBOAuth1Manager.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-BDBOAuth1Manager-prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dlyrapoilahettalrfjdzdkxqgwu/Pods-BDBOAuth1Manager-prefix.pch.pch36"501171B8-A65C-4530-A8D1-2A8973554FDB-
+bB3D9FEC1-F33F-49B0-B636-4BF19CCDC64C
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-dbazxsrmoujreacrgbftelcslour_ast/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/Pods-BDBOAuth1Manager-prefix-fmedwrvrqmzwljdfatspmqakevcx_ast/Pods-BDBOAuth1Manager-prefix.pch.pch Pods-BDBOAuth1Manager-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

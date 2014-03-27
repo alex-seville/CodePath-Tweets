@@ -7,7 +7,8 @@
 //
 
 #import "ASAppDelegate.h"
-#import "ASSplashScreenViewController.h"
+#import "ASTimelineViewController.h"
+#import "ASLoginViewController.h"
 
 @implementation ASAppDelegate
 
@@ -15,9 +16,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ASSplashScreenViewController *splashScreen = [[ASSplashScreenViewController alloc] init];
+    ASTimelineViewController *timelineViewController = [[ASTimelineViewController alloc] init];
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:splashScreen];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:timelineViewController];
     
     self.window.rootViewController = nav;
     
