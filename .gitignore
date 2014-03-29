@@ -16,6 +16,7 @@ DerivedData
 .idea/
 *.hmap
 *.xccheckout
+TwitterAPI.plist
 
 #CocoaPods
 #Pods
