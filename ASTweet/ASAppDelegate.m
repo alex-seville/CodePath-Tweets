@@ -8,24 +8,49 @@
 
 #import "ASAppDelegate.h"
 #import "ASTimelineViewController.h"
-#import "ASLoginViewController.h"
+#import "ASTwitterAPI.h"
+#import "ASUser.h"
 
 @implementation ASAppDelegate
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    
+    /* now do the app start up stuff */
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ASTimelineViewController *timelineViewController = [[ASTimelineViewController alloc] init];
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:timelineViewController];
+    /* temp */
+    /*
+     NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
+    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
+     */
+    /* remove */
     
-    self.window.rootViewController = nav;
+    if (![ASUser currentUser]){
+        /* check if we have a current user, if not login */
+        ASTwitterAPI *apiClient = [ASTwitterAPI instance];
+    
+        [apiClient login];
+    }else{
+    
+        [self showTimelineTable];
+    }
+    
     
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor colorWithRed:136 green:211 blue:253 alpha:1.0 ];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -53,6 +78,48 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [[ASTwitterAPI instance] processAuthResponseURL:url onSuccess:^{
+        
+        ASTwitterAPI *apiClient = [ASTwitterAPI instance];
+
+        
+        [apiClient getWithEndpointType:ASTwitterAPIEndpointUser success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            
+            [[NSNotificationCenter defaultCenter] addObserver:self
+                                                     selector:@selector(showTimelineTable)
+                                                         name:UserLoggedInNotification object:nil];
+            
+            [[[ASUser alloc] initWithDictionary:responseObject] setAsCurrentUser];
+                        
+            
+            
+        } failure: ^(AFHTTPRequestOperation *operation, NSError *error) {
+            NSLog(@"Failure: %@", error);
+        }];
+        
+        
+    }];
+}
+
+- (void) showTimelineTable {
+    ASTimelineViewController *timelineViewController = [[ASTimelineViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:timelineViewController];
+    
+    
+    
+    [nav.navigationBar setBarTintColor:timelineViewController.view.backgroundColor];
+    [nav.navigationBar setTranslucent:NO];
+    [nav.navigationBar setBarStyle:UIBarStyleBlack];
+    timelineViewController.title = @"Tweet!";
+    
+    
+    self.window.rootViewController = nav;
+    
+    
 }
 
 @end

@@ -9,6 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "BDBOAuth1RequestOperationManager.h"
 
+typedef enum  {
+    ASTwitterAPIEndpointUser,
+    ASTwitterAPIEndpointTimeline
+} ASTwitterAPIEndpointType;
+
 @interface ASTwitterAPI : BDBOAuth1RequestOperationManager
+
+
+
+
++ (ASTwitterAPI *) instance;
+- (void)login;
+- (BOOL)processAuthResponseURL:(NSURL *)url onSuccess:(void (^)(void))success;
+- (AFHTTPRequestOperation *)getWithEndpointType:(ASTwitterAPIEndpointType)endpointType success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+
 
 @end

@@ -3,31 +3,41 @@ v6
 r1
 cCheck dependencies
 cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh
-cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASLoginViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet normal i386
 cCpResource Assets/AppIcon29x29@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon29x29@2x.png
 cCpResource Assets/AppIcon40x40.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon40x40.png
 cCpResource Assets/AppIcon76x76.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon76x76.png
+cCopyPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/TwitterAPI.plist TwitterAPI.plist
 cCpResource Assets/iTunesArtwork.png Build/Products/Debug-iphonesimulator/ASTweet.app/iTunesArtwork.png
 cCopyStringsFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/en.lproj/InfoPlist.strings ASTweet/en.lproj/InfoPlist.strings
 cCpResource Assets/Default_R4.png Build/Products/Debug-iphonesimulator/ASTweet.app/Default_R4.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
 cCpResource Assets/AppIcon60x60.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon60x60.png
 cCpResource Assets/Default_2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/Default_2x.png
 cCpResource Assets/AppIcon57x57.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon57x57.png
 cCpResource Assets/AppIcon40x40@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon40x40@2x.png
 cCpResource Assets/AppIcon29x29.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon29x29.png
 cCpResource Assets/AppIcon50x50@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon50x50@2x.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
 cCpResource Assets/iTunesArtwork@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/iTunesArtwork@2x.png
 cCpResource Assets/AppIcon76x76@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon76x76@2x.png
 cCpResource Assets/AppIcon72x72.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon72x72.png
+cCpResource Assets/New@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
 cCpResource Assets/AppIcon57x57@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon57x57@2x.png
-cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.xib
 cCpResource Assets/AppIcon72x72@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon72x72@2x.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
 cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
 cCpResource Assets/AppIcon60x60@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon60x60@2x.png
 cCpResource Assets/AppIcon50x50.png Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon50x50.png
@@ -263,14 +273,14 @@ t1395898019
 s293
 
 N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m
-c000000005334822200000000000009ED
-t1395950114
-s2541
+c0000000053370D680000000000001187
+t1396116840
+s4487
 
 N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
-c00000000533485ED0000000000000419
-t1395951085
-s1049
+c000000005334FA47000000000000052D
+t1395980871
+s1325
 
 N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch
 c000000005333B6A30000000000000158
@@ -372,6 +382,11 @@ c00000000533483EF000000000000296E
 t1395950575
 s10606
 
+N/Users/seville/Documents/github/ios/ASTweet/Assets/New@2x.png
+c00000000520C1A700000000000000591
+t1376524912
+s1425
+
 N/Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork.png
 c00000000533485620000000000001C9D
 t1395950946
@@ -383,28 +398,53 @@ t1395950945
 s11118
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o
-t1395950643
-s65396
+t1396117158
+s81544
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o
+t1396114853
+s54976
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o
+t1396112544
+s47320
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASLoginViewController.o
+c00000000533484330000000000009FC0
 t1395950643
 s40896
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o
-t1395950643
-s41772
+t1396117158
+s82172
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.LinkFileList
-c000000005334843300000000000002F7
-t1395950643
-s759
+c00000000533705A500000000000005FD
+t1396114853
+s1533
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o
+t1396076419
+s19328
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o
+t1396075548
+s55100
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o
+t1396117158
+s62380
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o
-t1395950643
-s12956
+t1396117158
+s38612
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o
+t1396075548
+s24480
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o
-t1395950643
+t1396075548
 s3552
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh
@@ -429,25 +469,45 @@ N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHead
 t1395950643
 s122612
 
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch
+t1396075548
+s122828
+
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app
-t1395951018
-s986
+t1396117158
+s1224
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM
-t1395951018
+t1396114854
 s102
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASComposeTweetViewController.nib
+t1396114854
+s4706
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASDetailedTweetTableViewCell.nib
+t1396112546
+s2398
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASLoginViewController.nib
 t1395950644
 s4038
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTimelineViewController.nib
-t1395950644
-s1600
+t1396077014
+s1883
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet
-t1395950643
-s651832
+t1396117158
+s750212
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweetTableViewCell.nib
+t1396076469
+s4203
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweetViewController.nib
+t1396112545
+s1854
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/AppIcon29x29.png
 t1395951017
@@ -514,12 +574,20 @@ t1395950643
 s10606
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist
-t1395951087
-s1092
+t1395987598
+s1235
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png
+t1396113520
+s1425
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/PkgInfo
-t1395951087
+t1395987598
 s8
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/TwitterAPI.plist
+t1396117158
+s324
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/en.lproj/InfoPlist.strings
 t1395950643
@@ -534,24 +602,64 @@ t1395951017
 s11118
 
 N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods.a
-c00000000533484330000000000186DB8
-t1395950643
-s1600952
+c0000000053366C1C0000000000196398
+t1396075548
+s1663896
 
 N/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
-c000000005333CA84000000000000011C
-t1395903108
-s284
+c0000000053370D9900000000000002FD
+t1396116889
+s765
 
 N/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
-c000000005333D181000000000000021C
-t1395904897
-s540
+c0000000053370E9C00000000000017FE
+t1396117148
+s6142
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+c00000000533669860000000000000246
+t1396074886
+s582
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+c0000000053366F8100000000000005A8
+t1396076417
+s1448
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+c0000000053365F4D0000000000000379
+t1396072269
+s889
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+c0000000053365EDE00000000000008F4
+t1396072158
+s2292
+
+N/Users/seville/Documents/github/ios/ASTweet/TwitterAPI.plist
+c0000000053370EA50000000000000225
+t1396117157
+s549
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+c00000000533704DB0000000000000114
+t1396114651
+s276
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+c0000000053370553000000000000040A
+t1396114771
+s1034
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+c00000000533705A5000000000000133B
+t1396114853
+s4923
 
 N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.h
-c000000005333B91200000000000000F1
-t1395898642
-s241
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.m
 c000000005333D3B5000000000000037F
@@ -564,19 +672,64 @@ t1395905514
 s6615
 
 N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.h
-c000000005333B8ED00000000000000F7
-t1395898605
-s247
+c00000000533633540000000000000124
+t1396061012
+s292
 
 N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
-c000000005333D434000000000000044A
-t1395905588
-s1098
+c000000005337059400000000000010B9
+t1396114836
+s4281
 
 N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
-c000000005333C11B0000000000000A04
-t1395900699
-s2564
+c00000000533671BD0000000000000CF3
+t1396076989
+s3315
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.h
+c000000005336FB260000000000000162
+t1396112166
+s354
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+c00000000533705DF0000000000000841
+t1396114911
+s2113
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+c000000005336FCA000000000000008A6
+t1396112544
+s2214
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.h
+c000000005336FB060000000000000141
+t1396112134
+s321
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+c000000005336FC9E00000000000002F4
+t1396112542
+s756
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+c000000005336FCA000000000000008BB
+t1396112544
+s2235
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.h
+c0000000053364FDE0000000000000131
+t1396068318
+s305
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+c0000000053366C12000000000000059A
+t1396075538
+s1434
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+c0000000053366FB40000000000001CAF
+t1396076468
+s7343
 
 N/usr/lib/libSystem.B.dylib
 c0000000052FC0431000000000000E6D0
@@ -607,6 +760,11 @@ N/usr/lib/system/libcorecrypto.dylib
 c0000000052FC043D00000000000BD920
 t1392247869
 s776480
+
+N/usr/lib/system/libdyld.dylib
+c000000005310CFC800000000000141F0
+t1393610696
+s82416
 
 N/usr/lib/system/libkeymgr.dylib
 c0000000052FC043D000000000000A120
@@ -717,15 +875,33 @@ r0
 CBuild AST from /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
 r0
 
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+r0
+
 CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.m
 r0
 
 CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
 r0
 
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0e10286fbde4b841^7b852d6fbde4b841^---0#1#1#--18"Check dependencies36"240D7F89-A911-4A0C-AA07-30DBF663C958-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa871a32546e7b841^4cc4a32546e7b841^---0#1#1#--18"Check dependencies36"E09D2D3F-443D-457B-8C3D-3A3C28F1079D-
 
 CCompileAssetCatalog /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app /Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets
 s417643817.431105
@@ -748,8 +924,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile
 b7F993464-8ECE-4E1A-9256-FE5ACD64CF9B
 
 CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s417643443.534421
-e417643443.604473
+s417809957.653521
+e417809958.086820
 r1
 xCompileC
 xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o
@@ -761,9 +937,44 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m
 d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.h
 d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.h
-d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m206"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o ASTweet/ASAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler14eb88b3bbe4b841^4cc19ab3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m0000000000000000^4088"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o ASTweet/ASAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.dia -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o36"700E5822-DB98-4EB4-9AE0-1EACD82854D0-
-bC78719CA-9072-48A6-B1FD-D1D66B7F8028
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m206"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o ASTweet/ASAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraa61a72546e7b841^4b3a162646e7b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m0000000000000000^4238"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o ASTweet/ASAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.dia -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o36"76E751A0-B457-412D-B5B1-5A7998DAEE62-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417807653.709771
+e417807653.764285
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m244"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o ViewControllers/ASComposeTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera8c4b5253de7b841^f8a8c3253de7b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m0000000000000000^4344"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o ViewControllers/ASComposeTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o36"B42EF98F-7DE9-4B94-8233-69712776F43B-
+b1BBAA954-CEC2-420E-AC40-7E792FE63EA9
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417805344.167598
+e417805344.668525
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m234"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o Views/ASDetailedTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9cf82a2034e7b841^5f25ab2034e7b841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m0000000000000000^4324"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o Views/ASDetailedTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.dia -c /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o36"820F4D6C-0B02-4A7F-B9B5-CCD3CDD6BF48-
+bDD993272-ADCE-4FDC-8B22-71BC265F47FD
 
 CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASLoginViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417643443.534968
@@ -782,8 +993,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile
 bC78719CA-9072-48A6-B1FD-D1D66B7F8028
 
 CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s417643443.535550
-e417643443.594989
+s417809957.655725
+e417809958.101827
 r1
 xCompileC
 xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o
@@ -794,13 +1005,73 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
 d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.h
-d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m236"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o ViewControllers/ASTimelineViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler593489b3bbe4b841^ec5198b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m0000000000000000^4170"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o ViewControllers/ASTimelineViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o36"04DC00E3-EC47-43D3-879B-D0FE0A1D655E-
-bC78719CA-9072-48A6-B1FD-D1D66B7F8028
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m236"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o ViewControllers/ASTimelineViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler96eda72546e7b841^d3131a2646e7b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m0000000000000000^4320"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o ViewControllers/ASTimelineViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o36"7903D270-7851-4F88-8C49-70A614626307-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417769219.369675
+e417769219.407842
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o
+x/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m193"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o Models/ASTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler51c05e03a7e6b841^906a6803a7e6b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m0000000000000000^4200"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o Models/ASTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.dia -c /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o36"2CAB0EB0-4285-43F6-957B-0C009E277F2B-
+b065A4DE6-3E13-4841-B813-BEEAB5279470
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417768348.355930
+e417768348.428324
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m218"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o Views/ASTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1e345b9ca3e6b841^58a86d9ca3e6b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m0000000000000000^4276"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o Views/ASTweetTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.dia -c /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o36"8D6D845B-46B6-418D-B47F-3186C347C84B-
+bE847A914-EB0B-4CA3-BCF8-D9C742E02DFC
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417809957.655442
+e417809958.086890
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m230"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o ViewControllers/ASTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdae1a72546e7b841^3a3e162646e7b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m0000000000000000^4302"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o ViewControllers/ASTweetViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o36"A7DD8D96-BC86-4013-9DAB-D32ECD0B5B35-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
 
 CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s417643443.535166
-e417643443.585027
+s417809957.655002
+e417809958.086555
 r1
 xCompileC
 xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o
@@ -811,12 +1082,28 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
 d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m200"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o DAL/ASTwitterAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5c2089b3bbe4b841^61c595b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m0000000000000000^4074"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o DAL/ASTwitterAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.dia -c /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o36"4A5F5ED9-C0CA-47D1-81C2-5D52891E3C52-
-bC78719CA-9072-48A6-B1FD-D1D66B7F8028
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m200"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o DAL/ASTwitterAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler09c0a72546e7b841^ed28162646e7b841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m0000000000000000^4224"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o DAL/ASTwitterAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.dia -c /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o36"A8070685-0CE6-4D2D-B6F8-0ABA285520D7-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417768348.357118
+e417768348.405689
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o
+x/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m191"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o Models/ASUser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2f855b9ca3e6b841^b5de679ca3e6b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m0000000000000000^4194"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o Models/ASUser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.dia -c /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o36"1A5F2FDC-F313-47BC-A9E5-7AE7A3067BF2-
+bE847A914-EB0B-4CA3-BCF8-D9C742E02DFC
 
 CCompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s417643443.534739
-e417643443.569249
+s417768348.356346
+e417768348.393684
 r1
 xCompileC
 xBuild/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o
@@ -827,8 +1114,18 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m
 d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m188"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o ASTweet/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler34f788b3bbe4b841^c3ba91b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m0000000000000000^4034"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o ASTweet/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.dia -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o36"DF976D2A-1158-4886-9A42-BE1A94F004DE-
-bC78719CA-9072-48A6-B1FD-D1D66B7F8028
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m188"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o ASTweet/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler60575b9ca3e6b841^efc8649ca3e6b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m0000000000000000^4184"CompileC Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o ASTweet/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.dia -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o36"657086D8-8F3F-4647-8BBE-91D603FEC13B-
+bE847A914-EB0B-4CA3-BCF8-D9C742E02DFC
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+s417807653.840044
+e417807654.150149
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+o2014-03-29 10:40:54.035 Interface Builder Cocoa Touch Tool[61291:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib59"CompileXIB ViewControllers/ASComposeTweetViewController.xib7219d7253de7b841^697126263de7b841^-232"2014-03-29 10:40:54.035 Interface Builder Cocoa Touch Tool[61291:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@99"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib0000000000000000^830"CompileXIB ViewControllers/ASComposeTweetViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASComposeTweetViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib36"4B0C6234-4077-4B21-9139-6721DCB0F514-
+b1BBAA954-CEC2-420E-AC40-7E792FE63EA9
 
 CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASLoginViewController.xib
 s417643443.678947
@@ -841,14 +1138,52 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compili
 bC78719CA-9072-48A6-B1FD-D1D66B7F8028
 
 CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
-s417643443.679341
-e417643444.412198
+s417769814.558882
+e417769814.579199
 r1
 xCompileXIB
 x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
-o2014-03-27 13:04:04.385 Interface Builder Cocoa Touch Tool[36530:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib55"CompileXIB ViewControllers/ASTimelineViewController.xibcafeadb3bbe4b841^238669b4bbe4b841^-232"2014-03-27 13:04:04.385 Interface Builder Cocoa Touch Tool[36530:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@95"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib0000000000000000^818"CompileXIB ViewControllers/ASTimelineViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTimelineViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib36"033BEA02-39C2-4096-90FA-7777568AA301-
-bC78719CA-9072-48A6-B1FD-D1D66B7F8028
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib55"CompileXIB ViewControllers/ASTimelineViewController.xibda208f56a9e6b841^fa469456a9e6b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib0000000000000000^818"CompileXIB ViewControllers/ASTimelineViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTimelineViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib36"DE7DC89B-F0B0-43CE-979C-E9DB8362E40D-
+b4DF2E6B0-2A9C-4D0C-9455-824176CB329B
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+s417805344.745262
+e417805345.373266
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+o2014-03-29 10:02:25.341 Interface Builder Cocoa Touch Tool[60786:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib52"CompileXIB ViewControllers/ASTweetViewController.xib06d5be2034e7b841^b08e5f2134e7b841^-232"2014-03-29 10:02:25.341 Interface Builder Cocoa Touch Tool[60786:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@92"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib0000000000000000^809"CompileXIB ViewControllers/ASTweetViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweetViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib36"C6BDFAC7-F754-4250-AFB4-20F929E843B9-
+bDD993272-ADCE-4FDC-8B22-71BC265F47FD
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+s417805344.746464
+e417805346.009253
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+o2014-03-29 10:02:25.345 Interface Builder Cocoa Touch Tool[60787:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib49"CompileXIB Views/ASDetailedTweetTableViewCell.xib9528bf2034e7b841^b75f022234e7b841^-232"2014-03-29 10:02:25.345 Interface Builder Cocoa Touch Tool[60787:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@89"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib0000000000000000^810"CompileXIB Views/ASDetailedTweetTableViewCell.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASDetailedTweetTableViewCell.nib /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib36"E768F668-9F73-4CC6-A814-C24F1AD93584-
+bDD993272-ADCE-4FDC-8B22-71BC265F47FD
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+s417769269.709069
+e417769269.831705
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib41"CompileXIB Views/ASTweetTableViewCell.xib6492b535a7e6b841^c4edd435a7e6b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib0000000000000000^786"CompileXIB Views/ASTweetTableViewCell.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweetTableViewCell.nib /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib36"45193966-AB8D-427E-AC0D-E78ACB07A1C1-
+b0643CE20-703C-4EAA-9E64-99200C27367C
+
+CCopyPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/TwitterAPI.plist TwitterAPI.plist
+s417809958.213091
+e417809958.238221
+r1
+xCopyPlistFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/TwitterAPI.plist
+xTwitterAPI.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Copy TwitterAPI.plist96"CopyPlistFile Build/Products/Debug-iphonesimulator/ASTweet.app/TwitterAPI.plist TwitterAPI.plist6b9b362646e7b841^15fe3c2646e7b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/seville/Documents/github/ios/ASTweet/TwitterAPI.plist0000000000000000^505"CopyPlistFile Build/Products/Debug-iphonesimulator/ASTweet.app/TwitterAPI.plist TwitterAPI.plist    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app -- TwitterAPI.plist36"ED81F9B1-3EC1-4BE2-8B83-49723962F143-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
 
 CCopyStringsFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/en.lproj/InfoPlist.strings ASTweet/en.lproj/InfoPlist.strings
 s417643443.678497
@@ -1020,6 +1355,16 @@ xBuild/Products/Debug-iphonesimulator/ASTweet.app/Default_R4.png
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/ASTweet.app/Default_R4.png96"CpResource Assets/Default_R4.png Build/Products/Debug-iphonesimulator/ASTweet.app/Default_R4.pngdec7adb3bbe4b841^62f3adb3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Default_R4.png00340030deffdf42^614"CpResource Assets/Default_R4.png Build/Products/Debug-iphonesimulator/ASTweet.app/Default_R4.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/seville/Documents/github/ios/ASTweet/Assets/Default_R4.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app36"F1F18D53-508D-410F-8D35-EEC297B3BCB5-
 bC78719CA-9072-48A6-B1FD-D1D66B7F8028
 
+CCpResource Assets/New@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png
+s417806320.265081
+e417806320.268370
+r1
+xCpResource
+xAssets/New@2x.png
+xBuild/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png88"CpResource Assets/New@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.pnga52f44f037e7b841^e1b444f037e7b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png00340030deffdf42^602"CpResource Assets/New@2x.png Build/Products/Debug-iphonesimulator/ASTweet.app/New@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/seville/Documents/github/ios/ASTweet/Assets/New@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app36"30D5E6C7-C44D-4DA8-AC5D-346AE0A14708-
+bC4E30032-E1FD-4248-BC97-3CAAE37235F9
+
 CCpResource Assets/iTunesArtwork.png Build/Products/Debug-iphonesimulator/ASTweet.app/iTunesArtwork.png
 s417643817.426008
 e417643817.427188
@@ -1041,18 +1386,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Bu
 b7F993464-8ECE-4E1A-9256-FE5ACD64CF9B
 
 CGenerateDSYMFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet
-s417643887.194224
-e417643887.235000
+s417809958.239359
+e417809958.329588
 r1
 xGenerateDSYMFile
 x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM
 x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Generate /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM127"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet2bc2316fbde4b841^44853e6fbde4b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM/0000000000000000^676"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM36"C0B5D88D-96D1-4FC9-AD7E-4DF075F7420D-
-b0A4540EF-1D68-4161-8EFF-766D437E188A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Generate /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM127"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet00583d2646e7b841^dd60542646e7b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM/0000000000000000^676"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app.dSYM36"3A0BFADB-51A8-4959-94D9-99173C3696E4-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
 
 CLd /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet normal i386
-s417643443.605173
-e417643443.677725
+s417809958.105301
+e417809958.211918
 r1
 xLd
 x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet
@@ -1061,28 +1406,32 @@ xi386
 d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
 d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASAppDelegate.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASDetailedTweetTableViewCell.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetTableViewCell.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.o
 d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/main.o
-d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASLoginViewController.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASComposeTweetViewController.o
 d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTwitterAPI.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASUser.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweetViewController.o
 d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTimelineViewController.o
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -1105,6 +1454,7 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
@@ -1131,46 +1481,48 @@ d/usr/lib/system/libsystem_pthread.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet71"Ld Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet normal i3862bfb9ab3bbe4b841^9180adb3bbe4b841^---0#0#1#--1537"Ld Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet normal i386    cd /Users/seville/Documents/github/ios/ASTweet    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -filelist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet_dependency_info.dat -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet36"70E85BF1-3E0E-4332-B806-AE02124C03F4-
-bC78719CA-9072-48A6-B1FD-D1D66B7F8028
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet71"Ld Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet normal i386ff081b2646e7b841^9241362646e7b841^---0#0#1#--1559"Ld Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet normal i386    cd /Users/seville/Documents/github/ios/ASTweet    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -filelist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Objects-normal/i386/ASTweet_dependency_info.dat -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/ASTweet36"8BD7806B-05C2-4D02-A374-F3CCD9A34AB0-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh
-s417643887.175844
-e417643887.187801
+s417809957.640991
+e417809957.652246
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'152"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh58532d6fbde4b841^8ded356fbde4b841^---0#0#1#--368"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh    cd /Users/seville/Documents/github/ios/ASTweet    /bin/sh -c /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh36"DFB67E6B-5B7F-40CD-9210-70E1EA12DC0C-
-b0A4540EF-1D68-4161-8EFF-766D437E188A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'152"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh9066a42546e7b841^c2fba62546e7b841^---0#0#1#--368"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh    cd /Users/seville/Documents/github/ios/ASTweet    /bin/sh -c /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-116F319B9860445580C44C11.sh36"DA26A592-414A-4E0E-A844-B17ED0A1926C-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh
-s417643887.235994
-e417643887.541764
+s417809958.330421
+e417809959.407691
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
 x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh
+o/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/en.lproj
+o/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/nl.lproj
 obuilding file list ... done
 o
-osent 29 bytes  received 20 bytes  98.00 bytes/sec
-ototal size is 0  speedup is 0.00
-o2014-03-27 13:11:27.469 IBCocoaTouchImageCatalogTool[36723:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+osent 163 bytes  received 20 bytes  366.00 bytes/sec
+ototal size is 4471  speedup is 24.43
+o2014-03-29 11:19:19.289 IBCocoaTouchImageCatalogTool[61666:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
 o/* com.apple.actool.compilation-results */
 o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Assets.car
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'147"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh31b63c6fbde4b841^d6c58d6fbde4b841^-486"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.002014-03-27 13:11:27.469 IBCocoaTouchImageCatalogTool[36723:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Assets.car6(21%IDEActivityLogMessage2@28"building file list ... done-417643887#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-417643887#29#50#-0#-----2@33"total size is 0  speedup is 0.00-417643887#79#33#-0#-----2@226"2014-03-27 13:11:27.469 IBCocoaTouchImageCatalogTool[36723:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-417643887#112#226#-0#-----2@43"/* com.apple.actool.compilation-results */-417643887#338#43#-0#-----2@104"/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Assets.car-417643887#381#104#-0#-----0#0#1#--363"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh    cd /Users/seville/Documents/github/ios/ASTweet    /bin/sh -c /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh36"FAD461B9-899F-45A1-BC26-2EEFD13215DD-
-b0A4540EF-1D68-4161-8EFF-766D437E188A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'147"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh44dc542646e7b841^c45e682746e7b841^-660"/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/en.lproj/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/nl.lprojbuilding file list ... donesent 163 bytes  received 20 bytes  366.00 bytes/sectotal size is 4471  speedup is 24.432014-03-29 11:19:19.289 IBCocoaTouchImageCatalogTool[61666:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Assets.car8(21%IDEActivityLogMessage2@84"/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/en.lproj-417809958#0#84#-0#-----2@84"/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/nl.lproj-417809958#84#84#-0#-----2@28"building file list ... done-417809958#168#28#-0#-----2@52"sent 163 bytes  received 20 bytes  366.00 bytes/sec-417809958#197#52#-0#-----2@37"total size is 4471  speedup is 24.43-417809958#249#37#-0#-----2@226"2014-03-29 11:19:19.289 IBCocoaTouchImageCatalogTool[61666:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-417809959#286#226#-0#-----2@43"/* com.apple.actool.compilation-results */-417809959#512#43#-0#-----2@104"/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Assets.car-417809959#555#104#-0#-----0#0#1#--363"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh    cd /Users/seville/Documents/github/ios/ASTweet    /bin/sh -c /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh36"ABFED94E-0579-403C-ADE5-61629482157F-
+bD63AD55D-24ED-446F-BD9A-48C46DFFAA69
 
 CProcessInfoPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
-s417643887.192693
-e417643887.193882
+s417680398.845649
+e417680398.847177
 r1
 xProcessInfoPlistFile
 x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist
 x/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist107"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist ASTweet/ASTweet-Info.plist895f316fbde4b841^d6ff356fbde4b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist0000000000000000^907"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist ASTweet/ASTweet-Info.plist    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist -genpkginfo /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/assetcatalog_generated_info.plist -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist36"804EAB36-883A-43BC-B950-F5C5FC48977D-
-b0A4540EF-1D68-4161-8EFF-766D437E188A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist107"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist ASTweet/ASTweet-Info.plistba87d80e4ce5b841^82e1d80e4ce5b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist0000000000000000^907"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist ASTweet/ASTweet-Info.plist    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist -genpkginfo /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/assetcatalog_generated_info.plist -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app/Info.plist36"43899E71-56B2-444C-B603-533C0DD12421-
+b97C6045C-E79E-42BA-B056-ED234E26AF14
 
 CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417643443.501415
@@ -1187,15 +1539,33 @@ d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ASTweet/ASTweet-Prefix.pch211"ProcessPCH Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd6f80b3bbe4b841^9d9d88b3bbe4b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch0000000000000000^3944"ProcessPCH Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-bafegitllhhnzicaadgwwyocbesk/ASTweet-Prefix.pch.pch36"40C11986-AE39-4790-87C3-907A0FB099A5-
 bC78719CA-9072-48A6-B1FD-D1D66B7F8028
 
+CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417768348.318754
+e417768348.355119
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch
+xASTweet/ASTweet-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ASTweet/ASTweet-Prefix.pch211"ProcessPCH Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8aac519ca3e6b841^64ea5a9ca3e6b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch0000000000000000^4094"ProcessPCH Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphonesimulator/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-dxlbccgllvtbhvckinkpdewvtgha/ASTweet-Prefix.pch.pch36"6FA3D3D1-1C16-4936-BF36-C96F609D8C8F-
+bE847A914-EB0B-4CA3-BCF8-D9C742E02DFC
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/ASTweet-Prefix-aiemzyjwlygcacclekycooeursac_ast/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/ASTweet-Prefix-fibcjwtkikrxelcjeadrcxruzpyk_ast/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CTouch /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app
-s417643887.542455
-e417643887.545641
+s417673657.240889
+e417673657.243802
 r1
 xTouch
 x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app54"Touch Build/Products/Debug-iphonesimulator/ASTweet.app9ae98a6fbde4b841^3fc98d6fbde4b841^---0#0#1#--416"Touch Build/Products/Debug-iphonesimulator/ASTweet.app    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app36"F09E89C7-6ED6-4288-83D1-E4D52E38BD58-
-b0A4540EF-1D68-4161-8EFF-766D437E188A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app54"Touch Build/Products/Debug-iphonesimulator/ASTweet.app74b53db931e5b841^a96a3eb931e5b841^---0#0#1#--416"Touch Build/Products/Debug-iphonesimulator/ASTweet.app    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/ASTweet.app36"32FB3B46-BCE9-4D1B-B702-CE67293693DA-
+b9AD1E729-480B-46E6-A7D9-60127CD07786
 

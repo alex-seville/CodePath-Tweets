@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ASTimelineViewController">
             <connections>
+                <outlet property="timelineTableView" destination="s0f-sR-NOL" id="7Ax-Qb-7YI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,14 +19,19 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                 </tableView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.53333336114883423" green="0.82745105028152466" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
             <constraints>
                 <constraint firstItem="s0f-sR-NOL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zei-Wb-RwT"/>
                 <constraint firstItem="s0f-sR-NOL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="afw-T6-KuA"/>
                 <constraint firstAttribute="bottom" secondItem="s0f-sR-NOL" secondAttribute="bottom" id="b9e-7K-JZE"/>
+                <constraint firstAttribute="trailing" secondItem="s0f-sR-NOL" secondAttribute="trailing" id="hQx-iI-oGl"/>
+                <constraint firstAttribute="bottom" secondItem="s0f-sR-NOL" secondAttribute="bottom" id="pd5-mb-dH1"/>
+                <constraint firstItem="s0f-sR-NOL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="s0G-0E-L1T"/>
                 <constraint firstAttribute="trailing" secondItem="s0f-sR-NOL" secondAttribute="trailing" id="yeY-V5-itF"/>
+                <constraint firstItem="s0f-sR-NOL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zeZ-4z-3DO"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

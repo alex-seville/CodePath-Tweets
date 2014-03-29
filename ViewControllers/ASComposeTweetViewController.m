@@ -1,19 +1,21 @@
 //
-//  ASLoginViewController.m
+//  ASComposeTweetViewController.m
 //  ASTweet
 //
-//  Created by Alexander Seville on 3/26/14.
+//  Created by Alexander Seville on 3/29/14.
 //  Copyright (c) 2014 Alexander Seville. All rights reserved.
 //
 
-#import "ASLoginViewController.h"
+#import "ASComposeTweetViewController.h"
 
-@interface ASLoginViewController ()
-- (IBAction)signinButton:(id)sender;
+@interface ASComposeTweetViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *composeTweetTextView;
+@property (weak, nonatomic) IBOutlet UILabel *twitterHandleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *realNameLabel;
 
 @end
 
-@implementation ASLoginViewController
+@implementation ASComposeTweetViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,6 +30,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.composeTweetTextView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,7 +40,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)signinButton:(id)sender {
-    [self dismissViewControllerAnimated:YES completion: nil];
-}
 @end
