@@ -11,7 +11,12 @@
 
 typedef enum  {
     ASTwitterAPIEndpointUser,
-    ASTwitterAPIEndpointTimeline
+    ASTwitterAPIEndpointTimeline,
+    ASTwitterAPIEndpointAddTweet,
+    ASTwitterAPIEndpointReply,
+    ASTwitterAPIEndpointRetweet,
+    ASTwitterAPIEndpointFavorite,
+    ASTwitterAPIEndpointUnfavorite
 } ASTwitterAPIEndpointType;
 
 @interface ASTwitterAPI : BDBOAuth1RequestOperationManager
@@ -23,6 +28,6 @@ typedef enum  {
 - (void)login;
 - (BOOL)processAuthResponseURL:(NSURL *)url onSuccess:(void (^)(void))success;
 - (AFHTTPRequestOperation *)getWithEndpointType:(ASTwitterAPIEndpointType)endpointType success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
-
+- (AFHTTPRequestOperation *)postWithEndpointType:(ASTwitterAPIEndpointType)endpointType parameters:(NSDictionary *)parameters success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
 
 @end

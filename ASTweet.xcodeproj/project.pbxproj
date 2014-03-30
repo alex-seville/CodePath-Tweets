@@ -51,6 +51,17 @@
 		65B74F3118E3F06D00169B3A /* ASTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65B74F2F18E3F06D00169B3A /* ASTimelineViewController.xib */; };
 		65B74F3A18E3F94900169B3A /* ASTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B74F3918E3F94900169B3A /* ASTwitterAPI.m */; };
 		65D0AC3A18E7409700C4637B /* TwitterAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC3918E7409700C4637B /* TwitterAPI.plist */; };
+		65D0AC3E18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0AC3C18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.m */; };
+		65D0AC3F18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC3D18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.xib */; };
+		65D0AC4318E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0AC4118E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m */; };
+		65D0AC4418E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4218E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib */; };
+		65D0AC4C18E74FCE00C4637B /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4518E74FCE00C4637B /* Favorites.png */; };
+		65D0AC4D18E74FCE00C4637B /* Favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4618E74FCE00C4637B /* Favorites@2x.png */; };
+		65D0AC4E18E74FCE00C4637B /* New.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4718E74FCE00C4637B /* New.png */; };
+		65D0AC4F18E74FCE00C4637B /* Reply.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4818E74FCE00C4637B /* Reply.png */; };
+		65D0AC5018E74FCE00C4637B /* Reply@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4918E74FCE00C4637B /* Reply@2x.png */; };
+		65D0AC5118E74FCE00C4637B /* Syncing.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4A18E74FCE00C4637B /* Syncing.png */; };
+		65D0AC5218E74FCE00C4637B /* Syncing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4B18E74FCE00C4637B /* Syncing@2x.png */; };
 		65DFB17B18E5322200D34992 /* ASUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DFB17A18E5322200D34992 /* ASUser.m */; };
 		CB2F746505D346FB91DCB296 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EF68A9299B43758FA4DFF9 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -122,6 +133,19 @@
 		65B74F3818E3F94900169B3A /* ASTwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASTwitterAPI.h; path = DAL/ASTwitterAPI.h; sourceTree = "<group>"; };
 		65B74F3918E3F94900169B3A /* ASTwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASTwitterAPI.m; path = DAL/ASTwitterAPI.m; sourceTree = "<group>"; };
 		65D0AC3918E7409700C4637B /* TwitterAPI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TwitterAPI.plist; sourceTree = "<group>"; };
+		65D0AC3B18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASDetailedTweetStatusTableViewCell.h; path = Views/ASDetailedTweetStatusTableViewCell.h; sourceTree = "<group>"; };
+		65D0AC3C18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASDetailedTweetStatusTableViewCell.m; path = Views/ASDetailedTweetStatusTableViewCell.m; sourceTree = "<group>"; };
+		65D0AC3D18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASDetailedTweetStatusTableViewCell.xib; path = Views/ASDetailedTweetStatusTableViewCell.xib; sourceTree = "<group>"; };
+		65D0AC4018E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASDetailedTweetActionsTableViewCell.h; path = Views/ASDetailedTweetActionsTableViewCell.h; sourceTree = "<group>"; };
+		65D0AC4118E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASDetailedTweetActionsTableViewCell.m; path = Views/ASDetailedTweetActionsTableViewCell.m; sourceTree = "<group>"; };
+		65D0AC4218E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASDetailedTweetActionsTableViewCell.xib; path = Views/ASDetailedTweetActionsTableViewCell.xib; sourceTree = "<group>"; };
+		65D0AC4518E74FCE00C4637B /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites.png; sourceTree = "<group>"; };
+		65D0AC4618E74FCE00C4637B /* Favorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Favorites@2x.png"; sourceTree = "<group>"; };
+		65D0AC4718E74FCE00C4637B /* New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New.png; sourceTree = "<group>"; };
+		65D0AC4818E74FCE00C4637B /* Reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reply.png; sourceTree = "<group>"; };
+		65D0AC4918E74FCE00C4637B /* Reply@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reply@2x.png"; sourceTree = "<group>"; };
+		65D0AC4A18E74FCE00C4637B /* Syncing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Syncing.png; sourceTree = "<group>"; };
+		65D0AC4B18E74FCE00C4637B /* Syncing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syncing@2x.png"; sourceTree = "<group>"; };
 		65DFB17918E5322200D34992 /* ASUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASUser.h; path = Models/ASUser.h; sourceTree = "<group>"; };
 		65DFB17A18E5322200D34992 /* ASUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASUser.m; path = Models/ASUser.m; sourceTree = "<group>"; };
 		9310B862D49942FEB937556F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -161,6 +185,12 @@
 				659CDE3918E731ED00B24CC6 /* ASDetailedTweetTableViewCell.h */,
 				659CDE3A18E731ED00B24CC6 /* ASDetailedTweetTableViewCell.m */,
 				659CDE3B18E731ED00B24CC6 /* ASDetailedTweetTableViewCell.xib */,
+				65D0AC3B18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.h */,
+				65D0AC3C18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.m */,
+				65D0AC3D18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.xib */,
+				65D0AC4018E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.h */,
+				65D0AC4118E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m */,
+				65D0AC4218E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -168,6 +198,13 @@
 		659F84BB18E4BB9D001026E7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				65D0AC4518E74FCE00C4637B /* Favorites.png */,
+				65D0AC4618E74FCE00C4637B /* Favorites@2x.png */,
+				65D0AC4718E74FCE00C4637B /* New.png */,
+				65D0AC4818E74FCE00C4637B /* Reply.png */,
+				65D0AC4918E74FCE00C4637B /* Reply@2x.png */,
+				65D0AC4A18E74FCE00C4637B /* Syncing.png */,
+				65D0AC4B18E74FCE00C4637B /* Syncing@2x.png */,
 				659CDE3E18E737E900B24CC6 /* New@2x.png */,
 				659F84C018E4BD0C001026E7 /* AppIcon29x29.png */,
 				659F84C118E4BD0C001026E7 /* AppIcon29x29@2x.png */,
@@ -385,19 +422,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				659F84D118E4BD0C001026E7 /* AppIcon29x29@2x.png in Resources */,
+				65D0AC5018E74FCE00C4637B /* Reply@2x.png in Resources */,
 				659F84D218E4BD0C001026E7 /* AppIcon40x40.png in Resources */,
 				659F84DC18E4BD0C001026E7 /* AppIcon76x76.png in Resources */,
 				65D0AC3A18E7409700C4637B /* TwitterAPI.plist in Resources */,
+				65D0AC4E18E74FCE00C4637B /* New.png in Resources */,
+				65D0AC4F18E74FCE00C4637B /* Reply.png in Resources */,
 				659F84DE18E4BD0C001026E7 /* iTunesArtwork.png in Resources */,
+				65D0AC4C18E74FCE00C4637B /* Favorites.png in Resources */,
 				65B74F0318E3EE2300169B3A /* InfoPlist.strings in Resources */,
 				659F84BF18E4BB9D001026E7 /* Default_R4.png in Resources */,
+				65D0AC3F18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.xib in Resources */,
 				659CDE3818E72B8800B24CC6 /* ASTweetViewController.xib in Resources */,
+				65D0AC5118E74FCE00C4637B /* Syncing.png in Resources */,
 				659F84D818E4BD0C001026E7 /* AppIcon60x60.png in Resources */,
 				65B74F0B18E3EE2300169B3A /* Images.xcassets in Resources */,
 				659F84BE18E4BB9D001026E7 /* Default_2x.png in Resources */,
+				65D0AC4D18E74FCE00C4637B /* Favorites@2x.png in Resources */,
 				659F84D618E4BD0C001026E7 /* AppIcon57x57.png in Resources */,
 				659F84D318E4BD0C001026E7 /* AppIcon40x40@2x.png in Resources */,
 				659F84D018E4BD0C001026E7 /* AppIcon29x29.png in Resources */,
+				65D0AC4418E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib in Resources */,
 				659F84D518E4BD0C001026E7 /* AppIcon50x50@2x.png in Resources */,
 				659CDE3018E66D4300B24CC6 /* ASTweetTableViewCell.xib in Resources */,
 				659F84DF18E4BD0C001026E7 /* iTunesArtwork@2x.png in Resources */,
@@ -410,6 +455,7 @@
 				659CDE4418E73B4300B24CC6 /* ASComposeTweetViewController.xib in Resources */,
 				65B74F3118E3F06D00169B3A /* ASTimelineViewController.xib in Resources */,
 				659F84D918E4BD0C001026E7 /* AppIcon60x60@2x.png in Resources */,
+				65D0AC5218E74FCE00C4637B /* Syncing@2x.png in Resources */,
 				659F84D418E4BD0C001026E7 /* AppIcon50x50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D0AC3E18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.m in Sources */,
 				65B74F0918E3EE2300169B3A /* ASAppDelegate.m in Sources */,
 				659CDE3C18E731ED00B24CC6 /* ASDetailedTweetTableViewCell.m in Sources */,
 				659CDE2F18E66D4300B24CC6 /* ASTweetTableViewCell.m in Sources */,
@@ -470,6 +517,7 @@
 				659CDE4318E73B4300B24CC6 /* ASComposeTweetViewController.m in Sources */,
 				65B74F3A18E3F94900169B3A /* ASTwitterAPI.m in Sources */,
 				65DFB17B18E5322200D34992 /* ASUser.m in Sources */,
+				65D0AC4318E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m in Sources */,
 				659CDE3718E72B8800B24CC6 /* ASTweetViewController.m in Sources */,
 				65B74F3018E3F06D00169B3A /* ASTimelineViewController.m in Sources */,
 			);

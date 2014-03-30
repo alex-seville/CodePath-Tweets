@@ -16,8 +16,12 @@
 @property (nonatomic, assign) NSInteger retweetCount;
 @property (nonatomic, strong) NSString *text;
 @property (nonatomic, strong) ASUser *user;
+@property (nonatomic, assign) NSString *tweetIdStr;
+@property (nonatomic, assign) BOOL isFavorited;
+@property (nonatomic, assign) bool isRetweeted;
 
 + (NSMutableArray *)tweetsFromArray:(NSArray *)tweets;
 + (NSString *)getTimeSince:(NSDate *)date;
+- (ASTweet*) initWithDictionary:(NSDictionary *)dictionary;
 
 @end

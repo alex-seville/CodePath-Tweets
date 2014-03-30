@@ -13,8 +13,8 @@
 #import "ASTweet.h"
 #import "ASTweetViewController.h"
 #import "ASComposeTweetViewController.h"
+#import "SVProgressHUD.h"
 
-CGFloat const MIN_TWEET_HEIGHT = 85.0;
 
 @interface ASTimelineViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *timelineTableView;
@@ -48,6 +48,11 @@ CGFloat const MIN_TWEET_HEIGHT = 85.0;
     
     [self loadTweets];
     
+    /* allow refresh on swipe down */
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    [refreshControl addTarget:self action:@selector(refresh:) forControlEvents:UIControlEventValueChanged];
+    [self.timelineTableView addSubview:refreshControl];
+    
     self.timelineTableView.dataSource = self;
     self.timelineTableView.delegate = self;
     
@@ -57,6 +62,10 @@ CGFloat const MIN_TWEET_HEIGHT = 85.0;
     UIBarButtonItem *composeButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"New.png"]  style:UIBarButtonItemStylePlain target:self action:@selector(onComposeButton)];
     composeButton.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem = composeButton;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(addTweetToTimeline:)
+                                                 name:NewTweetCreatedNotification object:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -82,6 +91,8 @@ CGFloat const MIN_TWEET_HEIGHT = 85.0;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    CGFloat MIN_TWEET_HEIGHT = 85.0;
     
     ASTweet *tweet = (ASTweet*)self.tweets[indexPath.row];
     
@@ -109,7 +120,7 @@ CGFloat const MIN_TWEET_HEIGHT = 85.0;
 -(void) loadTweets {
     ASTwitterAPI *apiClient = [ASTwitterAPI instance];
     
-    
+    [SVProgressHUD show];
     [apiClient getWithEndpointType:ASTwitterAPIEndpointTimeline success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         self.tweets = [ASTweet tweetsFromArray:responseObject];
@@ -120,17 +131,37 @@ CGFloat const MIN_TWEET_HEIGHT = 85.0;
         
         
         [self.timelineTableView reloadData];
-        
+        [SVProgressHUD dismiss];
         
     } failure: ^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Failure: %@", error);
+        [SVProgressHUD dismiss];
     }];
 
 }
 
 - (void)onComposeButton{
     ASComposeTweetViewController *composeView = [[ASComposeTweetViewController alloc] init];
-    [self presentViewController:composeView animated:YES completion: nil];
+    
+    
+    
+    [UIView  beginAnimations: @"ShowCompose"context: nil];
+    [UIView setAnimationCurve: UIViewAnimationCurveEaseInOut];
+    [UIView setAnimationDuration:0.75];
+    [self.navigationController pushViewController: composeView animated:NO];
+    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
+    [UIView commitAnimations];
+}
+
+- (void)refresh:(UIRefreshControl *)refreshControl {
+    [self loadTweets];
+    [refreshControl endRefreshing];
+}
+
+- (void)addTweetToTimeline:(NSNotification *) notification {
+    ASTweet *newTweet = (ASTweet *)notification.userInfo[@"tweet"];
+    [self.tweets insertObject:newTweet atIndex:0];
+    [self.timelineTableView reloadData];
 }
 
 @end

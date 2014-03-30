@@ -18,22 +18,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    
-    
-    /* now do the app start up stuff */
-    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     
-    /* temp */
+    /* uncomment to expire token */
     /*
      NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
     [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
      */
     /* remove */
     
+    
+    /* check if we have a current user, if not login */
     if (![ASUser currentUser]){
-        /* check if we have a current user, if not login */
+        
         ASTwitterAPI *apiClient = [ASTwitterAPI instance];
     
         [apiClient login];
@@ -42,9 +40,6 @@
         [self showTimelineTable];
     }
     
-    
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor colorWithRed:136 green:211 blue:253 alpha:1.0 ];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -85,7 +80,7 @@
         
         ASTwitterAPI *apiClient = [ASTwitterAPI instance];
 
-        
+        /* get user */
         [apiClient getWithEndpointType:ASTwitterAPIEndpointUser success:^(AFHTTPRequestOperation *operation, id responseObject) {
             
             [[NSNotificationCenter defaultCenter] addObserver:self
@@ -109,8 +104,8 @@
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:timelineViewController];
     
-    
-    
+    self.window.backgroundColor = timelineViewController.view.backgroundColor;
+    /* add the tweet colors to things */
     [nav.navigationBar setBarTintColor:timelineViewController.view.backgroundColor];
     [nav.navigationBar setTranslucent:NO];
     [nav.navigationBar setBarStyle:UIBarStyleBlack];

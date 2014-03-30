@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASTweet.h"
+
+extern NSString * const NewTweetCreatedNotification;
 
 @interface ASComposeTweetViewController : UIViewController <UITextViewDelegate>
+
+@property (nonatomic, strong) NSString *replyTo;
+@property (nonatomic, assign) NSString *replyIdStr;
 
 @end

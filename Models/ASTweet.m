@@ -30,15 +30,18 @@
 
 - (ASTweet*) initWithDictionary:(NSDictionary *)dictionary {
     self = [super init];
-    NSLog(@"datestr: %@", dictionary[@"created_at"]);
+    
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"EE LLLL d HH:mm:ss Z yyyy"];
     self.createdAt = [dateFormat dateFromString:dictionary[@"created_at"]];
-    NSLog(@"formattef: %@", [dateFormat dateFromString:dictionary[@"created_at"]]);
+   
     self.favoriteCount = [dictionary[@"favorite_count"] integerValue];
     self.retweetCount = [dictionary[@"retweet_count"] integerValue];
     self.text = dictionary[@"text"];
     self.user = [[ASUser alloc] initWithDictionary:dictionary[@"user"]];
+    self.tweetIdStr = dictionary[@"id_str"];
+    self.isFavorited = [dictionary[@"favorited"] boolValue];
+    self.isRetweeted = [dictionary[@"retweeted"] boolValue];
     
     return self;
 }

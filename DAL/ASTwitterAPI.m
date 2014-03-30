@@ -11,11 +11,15 @@
 NSString * const TOKEN_REQUEST_PATH = @"oauth/request_token";
 NSString * const APP_SCHEME = @"astweet";
 NSString * const TOKEN_CALLBACK_PATH = @"oauth_request";
-NSString * const API_URL = @"https://api.twitter.com";
-NSString * const TOKEN_AUTH_URL = @"https://api.twitter.com/oauth/authorize?oauth_token=%@";
+NSString * const API_URL = @"https://api.twitter.com/";
+NSString * const TOKEN_AUTH_URL = @"oauth/authorize?oauth_token=%@";
 
 NSString * const GET_USER_URL = @"1.1/account/verify_credentials.json";
 NSString * const GET_TIMELINE_URL = @"1.1/statuses/home_timeline.json";
+NSString * const POST_STATUS_UPDATE_URL = @"1.1/statuses/update.json";
+NSString * const POST_STATUS_RETWEET_URL = @"1.1/statuses/retweet.json";
+NSString * const POST_STATUS_FAVORITE_URL = @"1.1/favorites/create.json";
+NSString * const POST_STATUS_UNFAVORITE_URL = @"1.1/favorites/destroy.json";
 
 static NSString *TWITTER_API_KEY;
 static NSString *TWITTER_API_SECRET;
@@ -77,8 +81,10 @@ static NSString *TWITTER_ACCESS_TOKEN_SECRET;
         TWITTER_ACCESS_TOKEN = [temp objectForKey:@"TWITTER_ACCESS_TOKEN"];
         TWITTER_ACCESS_TOKEN_SECRET = [temp objectForKey:@"TWITTER_ACCESS_TOKEN_SECRET"];
         
+        /* now create the instance */
+        
         instance = [[ASTwitterAPI alloc] initWithBaseURL:[NSURL URLWithString:API_URL] consumerKey:TWITTER_API_KEY consumerSecret:TWITTER_API_SECRET];
-        /* store these in a strings file */
+        
     });
     
     return instance;
@@ -93,7 +99,7 @@ static NSString *TWITTER_ACCESS_TOKEN_SECRET;
     /* request token */
     /* replace the succes and failure with private methods maybe */
     [self fetchRequestTokenWithPath:TOKEN_REQUEST_PATH method:@"POST" callbackURL:[NSURL URLWithString:tokenCallbackURL] scope:nil success:^ (BDBOAuthToken *requestToken) {
-        NSString *authURL = [NSString stringWithFormat:TOKEN_AUTH_URL, requestToken.token];
+        NSString *authURL = [NSString stringWithFormat:[API_URL stringByAppendingString:TOKEN_AUTH_URL], requestToken.token];
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:authURL]];
     } failure:^(NSError *error) {
         NSLog(@"%@", error);
@@ -132,7 +138,7 @@ static NSString *TWITTER_ACCESS_TOKEN_SECRET;
     
     if (endpointType == ASTwitterAPIEndpointUser){
         endpointTypeStr = GET_USER_URL;
-    }else if (endpointType == ASTwitterAPIEndpointTimeline){
+    } else if (endpointType == ASTwitterAPIEndpointTimeline){
         endpointTypeStr = GET_TIMELINE_URL;
         
         parameters = @{
@@ -142,6 +148,26 @@ static NSString *TWITTER_ACCESS_TOKEN_SECRET;
     
     return [self GET:endpointTypeStr parameters:parameters success:success failure:failure];
 
+}
+
+- (AFHTTPRequestOperation *)postWithEndpointType:(ASTwitterAPIEndpointType)endpointType parameters:(NSDictionary *)parameters success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure {
+    
+    NSString *endpointTypeStr = [[NSString alloc] init];
+    
+    if (endpointType == ASTwitterAPIEndpointAddTweet){
+        endpointTypeStr = POST_STATUS_UPDATE_URL;
+    } else if (endpointType == ASTwitterAPIEndpointReply){
+        endpointTypeStr = POST_STATUS_UPDATE_URL;
+    } else if (endpointType == ASTwitterAPIEndpointRetweet){
+        endpointTypeStr = POST_STATUS_RETWEET_URL;
+    } else if (endpointType == ASTwitterAPIEndpointFavorite) {
+        endpointTypeStr = POST_STATUS_FAVORITE_URL;
+    } else if (endpointType == ASTwitterAPIEndpointUnfavorite) {
+        endpointTypeStr = POST_STATUS_UNFAVORITE_URL;
+    }
+    NSLog(@"Sending request: %@ with %@", endpointTypeStr, parameters);
+    return [self POST:endpointTypeStr parameters:parameters success:success failure:failure];
+    
 }
 
 

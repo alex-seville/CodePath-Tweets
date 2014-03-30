@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ASTweet.h"
+#import "ASDetailedTweetActionsTableViewCell.h"
 
-@interface ASTweetViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ASTweetViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, ASDetailedTweetActionsDelegate>
 
 @property (nonatomic, strong)  ASTweet *tweet;
 
