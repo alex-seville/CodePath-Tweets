@@ -21,6 +21,7 @@
 
 @property (nonatomic, strong) NSMutableArray *tweets;
 @property (nonatomic, strong) NSDictionary *tweetAttributes;
+@property (nonatomic, strong) ASTwitterAPI *apiClient;
 
 @end
 
@@ -45,6 +46,8 @@
     if (self.tweets.count == 0){
         self.timelineTableView.hidden = true;
     }
+    
+    self.apiClient = [ASTwitterAPI instance];
     
     [self loadTweets];
     
@@ -84,7 +87,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     ASTweetTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ASTweetTableViewCell" forIndexPath:indexPath];
-    
+    cell.delegate = self;
     [cell setTweet:self.tweets[indexPath.row]];
     
     return cell;
@@ -110,7 +113,6 @@
     [self.timelineTableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
-
 #pragma mark - private
 
 - (void)showTimelineTable {
@@ -118,10 +120,10 @@
 }
 
 -(void) loadTweets {
-    ASTwitterAPI *apiClient = [ASTwitterAPI instance];
+    
     
     [SVProgressHUD show];
-    [apiClient getWithEndpointType:ASTwitterAPIEndpointTimeline success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [self.apiClient getWithEndpointType:ASTwitterAPIEndpointTimeline success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         self.tweets = [ASTweet tweetsFromArray:responseObject];
         
@@ -141,8 +143,16 @@
 }
 
 - (void)onComposeButton{
+    [self onComposeButtonWithReply:nil];
+}
+
+- (void)onComposeButtonWithReply:(ASTweet *)tweet{
     ASComposeTweetViewController *composeView = [[ASComposeTweetViewController alloc] init];
     
+    if (tweet != nil){
+        composeView.replyIdStr = tweet.tweetIdStr;
+        composeView.replyTo = [ASUser getFormattedScreenName:tweet.user.screenName];
+    }
     
     
     [UIView  beginAnimations: @"ShowCompose"context: nil];
@@ -162,6 +172,60 @@
     ASTweet *newTweet = (ASTweet *)notification.userInfo[@"tweet"];
     [self.tweets insertObject:newTweet atIndex:0];
     [self.timelineTableView reloadData];
+}
+
+#pragma mark - tweet actions
+
+- (void) didClickReply:(ASTweet *)tweet {
+    [self onComposeButtonWithReply:tweet];
+}
+
+- (void) didClickRetweet:(ASTweet *)tweet {
+    
+    tweet.isRetweeted = true;
+    tweet.retweetCount++;
+    
+    [self.apiClient postWithEndpointType:ASTwitterAPIEndpointRetweet parameters:
+     @{
+       @"id": tweet.tweetIdStr
+       } success:^(AFHTTPRequestOperation *operation, id responseObject){
+           
+           /* refresh the line */
+           
+           /* update retweet icon */
+       } failure:^(AFHTTPRequestOperation *operation, NSError *error){
+           
+           tweet.isRetweeted = false;
+           tweet.retweetCount--;
+           NSLog(@"Error tweeting: %@", error);
+           
+       }];
+    
+}
+
+- (void) didClickFavorite:(ASTweet *)tweet {
+    
+    ASTwitterAPIEndpointType type = tweet.isFavorited ? ASTwitterAPIEndpointUnfavorite : ASTwitterAPIEndpointFavorite;
+    
+    tweet.isFavorited = true;
+    tweet.favoriteCount++;
+    
+    [self.apiClient postWithEndpointType:type parameters:
+     @{
+       @"id": tweet.tweetIdStr
+       } success:^(AFHTTPRequestOperation *operation, id responseObject){
+           
+           
+          //refresh the lne
+           /* update retweet icon */
+       } failure:^(AFHTTPRequestOperation *operation, NSError *error){
+           
+           tweet.isFavorited = false;
+           tweet.favoriteCount--;
+           NSLog(@"Error tweeting: %@", error);
+           
+       }];
+    
 }
 
 @end

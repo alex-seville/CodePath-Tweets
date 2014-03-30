@@ -145,7 +145,7 @@
        } success:^(AFHTTPRequestOperation *operation, id responseObject){
            _tweet.isRetweeted = true;
            _tweet.retweetCount++;
-           NSLog(@"retweet success: %@", responseObject);
+           
            self.showStatus = true;
            [self.tweetTable reloadData];
            
@@ -161,17 +161,38 @@
    
     ASTwitterAPIEndpointType type = tweet.isFavorited ? ASTwitterAPIEndpointUnfavorite : ASTwitterAPIEndpointFavorite;
     
+    _tweet.isFavorited = !tweet.isFavorited;
+    if (_tweet.isFavorited){
+        _tweet.favoriteCount++;
+        self.showStatus = true;
+    }else{
+        _tweet.favoriteCount--;
+        if (_tweet.favoriteCount == 0){
+            self.showStatus = false;
+        }
+    }
+    [self.tweetTable reloadData];
+    
     [self.apiClient postWithEndpointType:type parameters:
      @{
-       @"id": _tweet.tweetIdStr
+       @"id": tweet.tweetIdStr
        } success:^(AFHTTPRequestOperation *operation, id responseObject){
            
-           _tweet.isFavorited = true;
-           _tweet.favoriteCount++;
-           self.showStatus = true;
-           [self.tweetTable reloadData];
+          
            /* update retweet icon */
        } failure:^(AFHTTPRequestOperation *operation, NSError *error){
+           
+           _tweet.isFavorited = !tweet.isFavorited;
+           if (_tweet.isFavorited){
+               _tweet.favoriteCount++;
+               self.showStatus = true;
+           }else{
+               _tweet.favoriteCount--;
+               if (_tweet.favoriteCount == 0){
+                   self.showStatus = false;
+               }
+           }
+           [self.tweetTable reloadData];
            NSLog(@"Error tweeting: %@", error);
            
        }];

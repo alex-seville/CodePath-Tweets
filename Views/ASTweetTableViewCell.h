@@ -9,8 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "ASTweet.h"
 
+@protocol ASTweetActionsDelegate <NSObject>
+@required
+- (void)didClickReply:(ASTweet *)tweet;
+- (void)didClickRetweet:(ASTweet *)tweet;
+- (void)didClickFavorite:(ASTweet *)tweet;
+
+@end
+
 @interface ASTweetTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) ASTweet *tweet;
+@property (nonatomic, weak) id <ASTweetActionsDelegate> delegate;
 
 @end

@@ -43,6 +43,9 @@
     self.isFavorited = [dictionary[@"favorited"] boolValue];
     self.isRetweeted = [dictionary[@"retweeted"] boolValue];
     
+    /* later we can parse these replies too, but for now we're just using the count */
+    self.replyCount = ((NSArray *)dictionary[@"entities"][@"user_mentions"]).count;
+    
     return self;
 }
 

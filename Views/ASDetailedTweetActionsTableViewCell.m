@@ -40,10 +40,14 @@
     _tweet = tweet;
     if (tweet.isFavorited){
         self.favoriteButton.backgroundColor = [UIColor yellowColor];
+    }else{
+        self.favoriteButton.backgroundColor = [UIColor whiteColor];
     }
     
     if (tweet.isRetweeted){
         self.retweetButton.backgroundColor = [UIColor greenColor];
+    }else{
+        self.favoriteButton.backgroundColor = [UIColor whiteColor];
     }
     
 }

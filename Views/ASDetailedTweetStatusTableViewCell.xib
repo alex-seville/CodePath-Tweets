@@ -54,17 +54,13 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="4Bn-Iv-0ep" firstAttribute="leading" secondItem="QYL-J6-itz" secondAttribute="trailing" constant="5" id="9Sy-En-ZHV"/>
-                    <constraint firstAttribute="bottom" secondItem="53u-kp-HDk" secondAttribute="bottom" constant="11" id="DuC-6E-uIL"/>
                     <constraint firstItem="QYL-J6-itz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="HV2-fm-gX5"/>
                     <constraint firstItem="53u-kp-HDk" firstAttribute="leading" secondItem="4Bn-Iv-0ep" secondAttribute="trailing" constant="11" id="LYA-Ge-BbK"/>
                     <constraint firstItem="QYL-J6-itz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="aSP-0x-XNi"/>
                     <constraint firstItem="uJa-Il-iWq" firstAttribute="leading" secondItem="53u-kp-HDk" secondAttribute="trailing" constant="7" id="bHP-q4-38V"/>
                     <constraint firstItem="4Bn-Iv-0ep" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="eJx-yC-sQv"/>
-                    <constraint firstAttribute="bottom" secondItem="QYL-J6-itz" secondAttribute="bottom" constant="11" id="m2j-if-n2g"/>
                     <constraint firstItem="uJa-Il-iWq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="o2w-2f-laB"/>
-                    <constraint firstAttribute="bottom" secondItem="uJa-Il-iWq" secondAttribute="bottom" constant="11" id="tNe-wT-IzZ"/>
                     <constraint firstItem="53u-kp-HDk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="uep-cE-m9e"/>
-                    <constraint firstAttribute="bottom" secondItem="4Bn-Iv-0ep" secondAttribute="bottom" constant="11" id="xij-3X-353"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

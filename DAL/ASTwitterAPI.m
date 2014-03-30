@@ -17,7 +17,7 @@ NSString * const TOKEN_AUTH_URL = @"oauth/authorize?oauth_token=%@";
 NSString * const GET_USER_URL = @"1.1/account/verify_credentials.json";
 NSString * const GET_TIMELINE_URL = @"1.1/statuses/home_timeline.json";
 NSString * const POST_STATUS_UPDATE_URL = @"1.1/statuses/update.json";
-NSString * const POST_STATUS_RETWEET_URL = @"1.1/statuses/retweet.json";
+NSString * const POST_STATUS_RETWEET_URL = @"1.1/statuses/retweet/%@.json";
 NSString * const POST_STATUS_FAVORITE_URL = @"1.1/favorites/create.json";
 NSString * const POST_STATUS_UNFAVORITE_URL = @"1.1/favorites/destroy.json";
 
@@ -159,13 +159,15 @@ static NSString *TWITTER_ACCESS_TOKEN_SECRET;
     } else if (endpointType == ASTwitterAPIEndpointReply){
         endpointTypeStr = POST_STATUS_UPDATE_URL;
     } else if (endpointType == ASTwitterAPIEndpointRetweet){
-        endpointTypeStr = POST_STATUS_RETWEET_URL;
+        NSString *tweetId = parameters[@"id"];
+        
+        endpointTypeStr = [NSString stringWithFormat:POST_STATUS_RETWEET_URL, tweetId ];
     } else if (endpointType == ASTwitterAPIEndpointFavorite) {
         endpointTypeStr = POST_STATUS_FAVORITE_URL;
     } else if (endpointType == ASTwitterAPIEndpointUnfavorite) {
         endpointTypeStr = POST_STATUS_UNFAVORITE_URL;
     }
-    NSLog(@"Sending request: %@ with %@", endpointTypeStr, parameters);
+    
     return [self POST:endpointTypeStr parameters:parameters success:success failure:failure];
     
 }

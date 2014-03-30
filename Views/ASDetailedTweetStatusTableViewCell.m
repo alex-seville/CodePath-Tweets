@@ -37,17 +37,19 @@
     
     _tweet = tweet;
     if (tweet.retweetCount == 0){
-        self.retweetCountLabel.hidden = true;
-        self.retweetLabel.hidden = true;
+        self.retweetCountLabel.text = @"";
+        self.retweetLabel.text = @"";
     }else{
         self.retweetCountLabel.text = [@(tweet.retweetCount) stringValue];
+        self.retweetLabel.text = @"RETWEETS";
     }
     
     if (tweet.favoriteCount == 0){
-        self.favoriteCountLabel.hidden = true;
-        self.favoriteLabel.hidden = true;
+        self.favoriteCountLabel.text = @"";
+        self.favoriteLabel.text = @"";
     }else{
         self.favoriteCountLabel.text = [@(tweet.favoriteCount) stringValue];
+        self.favoriteLabel.text = @"FAVORITES";
     }
     
     

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASTweetTableViewCell.h"
 
-@interface ASTimelineViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ASTimelineViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, ASTweetActionsDelegate>
 
 @end
