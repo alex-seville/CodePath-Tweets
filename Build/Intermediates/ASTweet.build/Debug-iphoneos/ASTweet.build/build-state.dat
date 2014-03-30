@@ -1,0 +1,1693 @@
+TASTweet
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh
+cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet normal armv7s
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png Assets/AppIcon29x29@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png Assets/Reply@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png Assets/AppIcon40x40.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png Assets/AppIcon76x76.png
+cCopyPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/TwitterAPI.plist TwitterAPI.plist
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New.png Assets/New.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply.png Assets/Reply.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png Assets/iTunesArtwork.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png Assets/Favorites.png
+cCopyStringsFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/en.lproj/InfoPlist.strings ASTweet/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png Assets/Default_R4.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png Assets/Syncing.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png Assets/AppIcon60x60.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png Assets/Default_2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png Assets/Favorites@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png Assets/AppIcon57x57.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png Assets/AppIcon40x40@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png Assets/AppIcon29x29.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png Assets/AppIcon50x50@2x.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png Assets/iTunesArtwork@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png Assets/AppIcon76x76@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png Assets/AppIcon72x72.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png Assets/New@2x.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png Assets/AppIcon57x57@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png Assets/AppIcon72x72@2x.png
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+cCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png Assets/AppIcon60x60@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png Assets/Syncing@2x.png
+cCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png Assets/AppIcon50x50.png
+cCompileAssetCatalog /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app /Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets
+cProcessInfoPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Info.plist /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
+cGenerateDSYMFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh
+cProcessProductPackaging /Users/seville/Library/MobileDevice/Provisioning\ Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision
+cTouch /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent
+cCodeSign /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c0000000053273E940000000000000094
+t1395080852
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053273E940000000000000096
+t1395080852
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053273E94000000000000036B
+t1395080852
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053273E94000000000000019E
+t1395080852
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053273E95000000000063A500
+t1395080853
+s6530304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053273E95000000000079C660
+t1395080853
+s7980640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053273E9500000000004D7BC0
+t1395080853
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053273E950000000000433410
+t1395080853
+s4404240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053273E960000000000306EF0
+t1395080854
+s3174128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053273E95000000000006DCD0
+t1395080853
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053273E960000000000A90C10
+t1395080854
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053273E960000000000210E90
+t1395080854
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053273E9700000000000417E0
+t1395080855
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053273E970000000000649DB0
+t1395080855
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053273E970000000000186D60
+t1395080855
+s1600864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053273E9700000000001A2B00
+t1395080855
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053273E9A0000000002759920
+t1395080858
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000053273E9C0000000000385D50
+t1395080860
+s3693904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+c0000000053273E9E000000000001E300
+t1395080862
+s123648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+c0000000053273E9D000000000055EFE0
+t1395080861
+s5631968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+c0000000053273E9E000000000002A880
+t1395080862
+s174208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000053273E9E00000000000458C0
+t1395080862
+s284864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000053273E9E000000000003E3E0
+t1395080862
+s254944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+c0000000053273E9E000000000002B130
+t1395080862
+s176432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+c0000000053273E9E00000000000E1FD0
+t1395080862
+s925648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+c0000000053273E9E00000000000A2A70
+t1395080862
+s666224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+c0000000053273E9E000000000001E8A0
+t1395080862
+s125088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+c0000000053273E9E000000000000BF00
+t1395080862
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+c0000000053273E9E0000000000034380
+t1395080862
+s213888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+c0000000053273E9E0000000000022F30
+t1395080862
+s143152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+c0000000053273E9E000000000001E2A0
+t1395080862
+s123552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+c0000000053273E9E0000000000052520
+t1395080862
+s337184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+c0000000053273E9E0000000000015F20
+t1395080862
+s89888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+c0000000053273E9E00000000001B90D0
+t1395080862
+s1806544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+c0000000053273E9E000000000001F170
+t1395080862
+s127344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+c0000000053273E9E000000000002FCF0
+t1395080862
+s195824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+c0000000053273E9E000000000008A150
+t1395080862
+s565584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+c0000000053273E9E00000000000B60E0
+t1395080862
+s745696
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+c0000000053273E9E0000000000078720
+t1395080862
+s493344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+c0000000053273E9E00000000000621F0
+t1395080862
+s401904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053273E9E00000000000BDAE0
+t1395080862
+s776928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000053273E9E0000000000039080
+t1395080862
+s233600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+c0000000053273E9E000000000003CBC0
+t1395080862
+s248768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+c0000000053273E9E000000000002CFE0
+t1395080862
+s184288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+c0000000053273E9E000000000001EB50
+t1395080862
+s125776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+c0000000053273E9E000000000001EED0
+t1395080862
+s126672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+c0000000053273E9E00000000000236B0
+t1395080862
+s145072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+c0000000053273E9E00000000000AC500
+t1395080862
+s705792
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053273EB60000000000000ADC
+t1395080886
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053273EB6000000000000514C
+t1395080886
+s20812
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.h
+c000000005333B6A30000000000000125
+t1395898019
+s293
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m
+c00000000533866B2000000000000118B
+t1396205234
+s4491
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
+c000000005334FA47000000000000052D
+t1395980871
+s1325
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch
+c000000005333B6A30000000000000158
+t1395898019
+s344
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets
+c00000000533485A70000000000000088
+t1395951015
+s136
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/en.lproj/InfoPlist.strings
+c000000005333B6A3000000000000002D
+t1395898019
+s45
+
+N/Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m
+c000000005333B6A30000000000000161
+t1395898019
+s353
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon29x29.png
+c000000005334856100000000000019D9
+t1395950945
+s6617
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon29x29@2x.png
+c00000000533485610000000000001D98
+t1395950945
+s7576
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon40x40.png
+c00000000533485620000000000001691
+t1395950946
+s5777
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon40x40@2x.png
+c000000005334856200000000000016C9
+t1395950946
+s5833
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon50x50.png
+c0000000053348562000000000000169F
+t1395950946
+s5791
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon50x50@2x.png
+c00000000533485620000000000001701
+t1395950946
+s5889
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon57x57.png
+c00000000533485610000000000001BD2
+t1395950945
+s7122
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon57x57@2x.png
+c0000000053348561000000000000225A
+t1395950945
+s8794
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon60x60.png
+c00000000533485610000000000001D0D
+t1395950945
+s7437
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon60x60@2x.png
+c000000005334856100000000000024E6
+t1395950945
+s9446
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon72x72.png
+c000000005334856200000000000016BB
+t1395950946
+s5819
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon72x72@2x.png
+c00000000533485620000000000001745
+t1395950946
+s5957
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon76x76.png
+c000000005334856200000000000016C2
+t1395950946
+s5826
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon76x76@2x.png
+c0000000053348562000000000000175E
+t1395950946
+s5982
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Default_2x.png
+c000000005334840A00000000000022FE
+t1395950602
+s8958
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Default_R4.png
+c00000000533483EF000000000000296E
+t1395950575
+s10606
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Favorites.png
+c00000000520C1CFA00000000000005E9
+t1376525562
+s1513
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Favorites@2x.png
+c00000000520C1A640000000000000763
+t1376524900
+s1891
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/New.png
+c00000000520C1D06000000000000050C
+t1376525574
+s1292
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/New@2x.png
+c00000000520C1A700000000000000591
+t1376524912
+s1425
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Reply.png
+c00000000520C1CDE00000000000005AC
+t1376525534
+s1452
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Reply@2x.png
+c00000000520C1A4600000000000006F0
+t1376524870
+s1776
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Syncing.png
+c00000000520C27B40000000000000629
+t1376528308
+s1577
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/Syncing@2x.png
+c00000000520C308A0000000000000802
+t1376530570
+s2050
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork.png
+c00000000533485620000000000001C9D
+t1395950946
+s7325
+
+N/Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork@2x.png
+c00000000533485610000000000002B6E
+t1395950945
+s11118
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent
+t1396205239
+s414
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o
+t1396205237
+s82284
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o
+t1396165833
+s90296
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o
+t1396165833
+s54248
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o
+t1396165833
+s45284
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o
+t1396165833
+s56548
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o
+t1396165833
+s89328
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.LinkFileList
+c000000005337CCC90000000000000718
+t1396165833
+s1816
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o
+t1396165833
+s20160
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o
+t1396165833
+s55572
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o
+t1396165833
+s90100
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o
+t1396165833
+s42344
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o
+t1396165833
+s25716
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o
+t1396165833
+s3796
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh
+c000000005337CCC90000000000000103
+t1396165833
+s259
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh
+c000000005337CCC9000000000000002F
+t1396165833
+s47
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_dependencies.txt
+t1396165835
+s799
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_generated_info.plist
+t1396165835
+s1063
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch
+t1396165833
+s94968
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+t1396205237
+s1632
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM
+t1396165848
+s102
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASComposeTweetViewController.nib
+t1396165836
+s4758
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASDetailedTweetActionsTableViewCell.nib
+t1396165835
+s3036
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASDetailedTweetStatusTableViewCell.nib
+t1396165836
+s3155
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASDetailedTweetTableViewCell.nib
+t1396165836
+s4253
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTimelineViewController.nib
+t1396165835
+s1880
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet
+t1396205237
+s737244
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweetTableViewCell.nib
+t1396165836
+s4205
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweetViewController.nib
+t1396165835
+s1808
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png
+t1396165833
+s6568
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png
+t1396165835
+s7412
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png
+t1396165833
+s5791
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png
+t1396165835
+s5941
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png
+t1396165834
+s5806
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png
+t1396165833
+s5984
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png
+t1396165833
+s6993
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png
+t1396165833
+s8887
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png
+t1396165833
+s7202
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png
+t1396165835
+s9533
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png
+t1396165833
+s5929
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png
+t1396165833
+s6091
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png
+t1396165833
+s5936
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png
+t1396165833
+s6113
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png
+t1396165833
+s7799
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png
+t1396165833
+s8498
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png
+t1396165833
+s1491
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png
+t1396165833
+s1771
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Info.plist
+t1396165836
+s1515
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New.png
+t1396165833
+s1309
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png
+t1396165833
+s1391
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/PkgInfo
+t1396165836
+s8
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply.png
+t1396165833
+s1419
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png
+t1396165833
+s1664
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist
+t1396165833
+s150
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png
+t1396165833
+s1551
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png
+t1396165834
+s1906
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/TwitterAPI.plist
+t1396165833
+s324
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision
+t1396165837
+s115781
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/en.lproj/InfoPlist.strings
+t1396165833
+s42
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png
+t1396165833
+s7669
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png
+t1396165834
+s11927
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/libPods.a
+c000000005337CCC900000000001B1668
+t1396165833
+s1775208
+
+N/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+c000000005337B5B6000000000000049C
+t1396159926
+s1180
+
+N/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
+c000000005337B6C40000000000001CC4
+t1396160196
+s7364
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+c000000005337AB8A0000000000000277
+t1396157322
+s631
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+c000000005337ABA50000000000000558
+t1396157349
+s1368
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+c0000000053365F4D0000000000000379
+t1396072269
+s889
+
+N/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+c0000000053365EDE00000000000008F4
+t1396072158
+s2292
+
+N/Users/seville/Documents/github/ios/ASTweet/TwitterAPI.plist
+c0000000053370EA50000000000000225
+t1396117157
+s549
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+c000000005337ABC8000000000000018B
+t1396157384
+s395
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+c000000005337AC89000000000000140D
+t1396157577
+s5133
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+c0000000053379F1C000000000000139E
+t1396154140
+s5022
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.h
+c00000000533633540000000000000124
+t1396061012
+s292
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
+c0000000053379FCA00000000000013FC
+t1396154314
+s5116
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
+c00000000533671BD0000000000000CF3
+t1396076989
+s3315
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.h
+c000000005337B54100000000000001B2
+t1396159809
+s434
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+c000000005337B91A00000000000017AD
+t1396160794
+s6061
+
+N/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+c00000000533720F400000000000008D0
+t1396121844
+s2256
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.h
+c000000005337B46A000000000000025D
+t1396159594
+s605
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m
+c000000005337B52600000000000004E6
+t1396159782
+s1254
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib
+c000000005337B52800000000000010FA
+t1396159784
+s4346
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.h
+c000000005337191E000000000000014D
+t1396119838
+s333
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m
+c000000005337162F00000000000001EF
+t1396119087
+s495
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib
+c000000005337199F0000000000001B40
+t1396119967
+s6976
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.h
+c000000005336FB060000000000000141
+t1396112134
+s321
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+c000000005337208100000000000006F4
+t1396121729
+s1780
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+c00000000533720590000000000001B10
+t1396121689
+s6928
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.h
+c0000000053364FDE0000000000000131
+t1396068318
+s305
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+c0000000053366C12000000000000059A
+t1396075538
+s1434
+
+N/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+c0000000053366FB40000000000001CAF
+t1396076468
+s7343
+
+N/Users/seville/Library/MobileDevice/Provisioning Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision
+c0000000053289035000000000001C445
+t1395167285
+s115781
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0400e3349ee8b841^7408e8349ee8b841^---0#1#1#--18"Check dependencies36"0C037E7C-AB45-4D28-AB47-8BFEE1FDE9AD-
+
+CCodeSign /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+s417898039.227874
+e417898039.398065
+r1
+xCodeSign
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign Build/Products/Debug-iphoneos/ASTweet.app50"CodeSign Build/Products/Debug-iphoneos/ASTweet.appb4733a379ee8b841^4fe865379ee8b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/0000000000000000^1014"CodeSign Build/Products/Debug-iphoneos/ASTweet.app    cd /Users/seville/Documents/github/ios/ASTweet    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Yahoo iOS Developer (HGE5WHA59X)" and provisioning profile "YahooIPhoneApps" (9FE4319D-8ADF-491D-9255-C6FFF88AFF25)    /usr/bin/codesign --force --sign 3E48A73334C6DEEC7A920B5D8B5EC9F0FFA21CBC --resource-rules=/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist --entitlements /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app36"590FB30A-F0A7-4F5E-9CC2-BB34DDD3E0D2-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CCompileAssetCatalog /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app /Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets
+s417858634.115519
+e417858635.689387
+r1
+xCompileAssetCatalog
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+x/Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets
+o2014-03-30 00:50:35.516 IBCocoaTouchImageCatalogTool[72271:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/LaunchImage-700@2x.png
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/LaunchImage-700-568h@2x.png
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Assets.car
+o/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CompileAssetCatalog Build/Products/Debug-iphoneos/ASTweet.app ASTweet/Images.xcassets85"CompileAssetCatalog Build/Products/Debug-iphoneos/ASTweet.app ASTweet/Images.xcassetscaa51d4a04e8b841^118bb04b04e8b841^-1049"2014-03-30 00:50:35.516 IBCocoaTouchImageCatalogTool[72271:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/LaunchImage-700@2x.png/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/LaunchImage-700-568h@2x.png/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Assets.car/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@75"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets/0000000000000000^1076"CompileAssetCatalog Build/Products/Debug-iphoneos/ASTweet.app ASTweet/Images.xcassets    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app /Users/seville/Documents/github/ios/ASTweet/ASTweet/Images.xcassets36"9F8DBFBD-12B8-46D3-B9E8-4BD9E213D41B-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417898036.924621
+e417898037.433579
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o
+x/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m
+d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m203"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o ASTweet/ASAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler29cbec349ee8b841^b0ff6e359ee8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m0000000000000000^4224"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o ASTweet/ASAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.dia -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o36"50B1C90E-E720-4BC1-A0D7-78603EF3953F-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.309250
+e417858633.441090
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m241"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o ViewControllers/ASComposeTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf0514f4904e8b841^bceb704904e8b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m0000000000000000^4330"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o ViewControllers/ASComposeTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o36"2BD0D705-18BE-411D-9735-A6F72131818C-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.371735
+e417858633.445571
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m245"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o Views/ASDetailedTweetActionsTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd8475f4904e8b841^9911724904e8b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m0000000000000000^4352"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o Views/ASDetailedTweetActionsTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.dia -c /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o36"68DA8913-CBFC-4BCD-8FA0-B307CB65F16D-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.307265
+e417858633.384752
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m243"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o Views/ASDetailedTweetStatusTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler98bf4e4904e8b841^8482624904e8b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m0000000000000000^4346"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o Views/ASDetailedTweetStatusTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.dia -c /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o36"C4F57E19-6C8C-45E0-AE12-EDD48A11DCDA-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.307734
+e417858633.405968
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m231"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o Views/ASDetailedTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler1bd84e4904e8b841^d9ed674904e8b841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m0000000000000000^4310"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o Views/ASDetailedTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.dia -c /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o36"E6381279-AEDE-4026-9A98-3F03CFF34ED3-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.397098
+e417858633.498616
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m233"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o ViewControllers/ASTimelineViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb0c6654904e8b841^bda67f4904e8b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m0000000000000000^4306"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o ViewControllers/ASTimelineViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o36"7CB0F9A5-A965-4F74-A955-4197B9C0EADA-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.308336
+e417858633.370467
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o
+x/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m190"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o Models/ASTweet.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler950d4f4904e8b841^41d75e4904e8b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m0000000000000000^4186"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o Models/ASTweet.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.dia -c /Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o36"EDE5454B-BC22-45F9-8325-EF1F1BA7B885-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.307953
+e417858633.395750
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m215"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o Views/ASTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerbaf54e4904e8b841^3350654904e8b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m0000000000000000^4262"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o Views/ASTweetTableViewCell.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.dia -c /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o36"DE35F1CC-854F-47C6-9FF6-29665CC02AF3-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.385004
+e417858633.485770
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASTweet.h
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.h
+d/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.h
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m227"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o ViewControllers/ASTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler58ab624904e8b841^ee5c7c4904e8b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m0000000000000000^4288"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o ViewControllers/ASTweetViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.dia -c /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o36"31C58474-476F-4562-9F7F-8F2EC694844A-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.309950
+e417858633.403063
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o
+x/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m
+d/Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m197"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o DAL/ASTwitterAPI.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler1a6f4f4904e8b841^8330674904e8b841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m0000000000000000^4210"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o DAL/ASTwitterAPI.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.dia -c /Users/seville/Documents/github/ios/ASTweet/DAL/ASTwitterAPI.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o36"9012AFD9-0125-4CE8-ACC0-C64A878F5E9E-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.345252
+e417858633.409661
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o
+x/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m
+d/Users/seville/Documents/github/ios/ASTweet/Models/ASUser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m188"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o Models/ASUser.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6b7e584904e8b841^22e0684904e8b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m0000000000000000^4180"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o Models/ASUser.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.dia -c /Users/seville/Documents/github/ios/ASTweet/Models/ASUser.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o36"708AF4B4-6BDC-472E-BAA9-A106592D6BCF-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.308718
+e417858633.345025
+r1
+xCompileC
+xBuild/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o
+x/Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m
+d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m185"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o ASTweet/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0a2d4f4904e8b841^a33e594904e8b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m0000000000000000^4170"CompileC Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o ASTweet/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.dia -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/main.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o36"C9A93D34-77D8-41F2-856A-AD9AF119ACF0-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+s417858633.987350
+e417858636.430886
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib
+o2014-03-30 00:50:35.786 Interface Builder Cocoa Touch Tool[72265:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib59"CompileXIB ViewControllers/ASComposeTweetViewController.xibedd4fc4904e8b841^014f6e4c04e8b841^-232"2014-03-30 00:50:35.786 Interface Builder Cocoa Touch Tool[72265:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@99"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib0000000000000000^771"CompileXIB ViewControllers/ASComposeTweetViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASComposeTweetViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASComposeTweetViewController.xib36"833A2971-9803-40E9-9CEB-E8F84C6F39CD-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
+s417858633.991290
+e417858635.834506
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib
+o2014-03-30 00:50:35.791 Interface Builder Cocoa Touch Tool[72267:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib55"CompileXIB ViewControllers/ASTimelineViewController.xibcbd7fd4904e8b841^94a2d54b04e8b841^-232"2014-03-30 00:50:35.791 Interface Builder Cocoa Touch Tool[72267:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@95"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib0000000000000000^759"CompileXIB ViewControllers/ASTimelineViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTimelineViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTimelineViewController.xib36"A89C614D-9D3F-4BBC-971E-60A7EA79CEB8-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+s417858633.836021
+e417858635.831302
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib
+o2014-03-30 00:50:35.782 Interface Builder Cocoa Touch Tool[72266:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib52"CompileXIB ViewControllers/ASTweetViewController.xib952dd64904e8b841^bbd0d44b04e8b841^-232"2014-03-30 00:50:35.782 Interface Builder Cocoa Touch Tool[72266:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@92"file:///Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib0000000000000000^750"CompileXIB ViewControllers/ASTweetViewController.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweetViewController.nib /Users/seville/Documents/github/ios/ASTweet/ViewControllers/ASTweetViewController.xib36"35B1BFCE-7B4E-404F-9C4C-E7CED3E00BBC-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib
+s417858633.870579
+e417858635.863122
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib
+o2014-03-30 00:50:35.782 Interface Builder Cocoa Touch Tool[72272:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib56"CompileXIB Views/ASDetailedTweetActionsTableViewCell.xibc711df4904e8b841^27f6dc4b04e8b841^-232"2014-03-30 00:50:35.782 Interface Builder Cocoa Touch Tool[72272:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@96"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib0000000000000000^772"CompileXIB Views/ASDetailedTweetActionsTableViewCell.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASDetailedTweetActionsTableViewCell.nib /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetActionsTableViewCell.xib36"ADCBF462-C36A-4146-AC02-7A981CB3D455-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib
+s417858633.835791
+e417858636.421996
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib
+o2014-03-30 00:50:35.781 Interface Builder Cocoa Touch Tool[72268:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compiling /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib55"CompileXIB Views/ASDetailedTweetStatusTableViewCell.xib6c04d64904e8b841^74086c4c04e8b841^-232"2014-03-30 00:50:35.781 Interface Builder Cocoa Touch Tool[72268:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@95"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib0000000000000000^769"CompileXIB Views/ASDetailedTweetStatusTableViewCell.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASDetailedTweetStatusTableViewCell.nib /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetStatusTableViewCell.xib36"6D739D64-9FB2-434F-90E4-225CAC1DBCAA-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+s417858633.940093
+e417858636.418090
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib
+o2014-03-30 00:50:35.783 Interface Builder Cocoa Touch Tool[72263:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib49"CompileXIB Views/ASDetailedTweetTableViewCell.xib88b9f04904e8b841^89086b4c04e8b841^-232"2014-03-30 00:50:35.783 Interface Builder Cocoa Touch Tool[72263:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@89"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib0000000000000000^751"CompileXIB Views/ASDetailedTweetTableViewCell.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASDetailedTweetTableViewCell.nib /Users/seville/Documents/github/ios/ASTweet/Views/ASDetailedTweetTableViewCell.xib36"E0471177-71CF-496F-BD88-79FDD83F2D55-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCompileXIB /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+s417858633.889903
+e417858636.415955
+r1
+xCompileXIB
+x/Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib
+o2014-03-30 00:50:35.778 Interface Builder Cocoa Touch Tool[72262:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib41"CompileXIB Views/ASTweetTableViewCell.xibb9e1e34904e8b841^7c7c6a4c04e8b841^-232"2014-03-30 00:50:35.778 Interface Builder Cocoa Touch Tool[72262:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@81"file:///Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib0000000000000000^727"CompileXIB Views/ASTweetTableViewCell.xib    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweetTableViewCell.nib /Users/seville/Documents/github/ios/ASTweet/Views/ASTweetTableViewCell.xib36"6B92F730-838B-4091-BA76-F132543E687B-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png Assets/AppIcon29x29.png
+s417858633.870729
+e417858633.898195
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png
+xAssets/AppIcon29x29.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png Assets/AppIcon29x29.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png Assets/AppIcon29x29.pnga9f5de4904e8b841^a2f0e54904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon29x29.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png Assets/AppIcon29x29.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon29x29.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29.png36"18273E3E-79E5-411C-83B7-23334B6B38B9-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png Assets/AppIcon29x29@2x.png
+s417858633.787536
+e417858633.835589
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png
+xAssets/AppIcon29x29@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png Assets/AppIcon29x29@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png Assets/AppIcon29x29@2x.png9fabc94904e8b841^c0edd54904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon29x29@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png Assets/AppIcon29x29@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon29x29@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon29x29@2x.png36"AAF86960-11C4-49FC-AC8B-A6BD0795542D-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png Assets/AppIcon40x40.png
+s417858633.787803
+e417858633.834515
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png
+xAssets/AppIcon40x40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png Assets/AppIcon40x40.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png Assets/AppIcon40x40.png99bcc94904e8b841^44c0d54904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon40x40.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png Assets/AppIcon40x40.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon40x40.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40.png36"7955A782-A4CE-4A36-97FA-10EB11DFF061-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png Assets/AppIcon40x40@2x.png
+s417858633.862711
+e417858633.889649
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png
+xAssets/AppIcon40x40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png Assets/AppIcon40x40@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png Assets/AppIcon40x40@2x.pngf7e9dc4904e8b841^03b2e34904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon40x40@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png Assets/AppIcon40x40@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon40x40@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon40x40@2x.png36"3976C893-E805-46F9-8962-76774B71D2EA-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png Assets/AppIcon50x50.png
+s417858634.088904
+e417858634.115341
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png
+xAssets/AppIcon50x50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png Assets/AppIcon50x50.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png Assets/AppIcon50x50.png5bd1164a04e8b841^2f871d4a04e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon50x50.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png Assets/AppIcon50x50.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon50x50.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50.png36"9B6D2508-B61E-4D93-B7F6-B99B73A1F8AC-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png Assets/AppIcon50x50@2x.png
+s417858633.889500
+e417858633.913738
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png
+xAssets/AppIcon50x50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png Assets/AppIcon50x50@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png Assets/AppIcon50x50@2x.png25cde34904e8b841^d9ebe94904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon50x50@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png Assets/AppIcon50x50@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon50x50@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon50x50@2x.png36"BF8B9154-64B1-4580-809B-C9AEE140FA46-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png Assets/AppIcon57x57.png
+s417858633.858416
+e417858633.889335
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png
+xAssets/AppIcon57x57.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png Assets/AppIcon57x57.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png Assets/AppIcon57x57.pngfed1db4904e8b841^3aade34904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon57x57.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png Assets/AppIcon57x57.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon57x57.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57.png36"6EE867E4-80B2-4DD8-8E18-81627A1C42C7-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png Assets/AppIcon57x57@2x.png
+s417858633.955922
+e417858633.987188
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png
+xAssets/AppIcon57x57@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png Assets/AppIcon57x57@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png Assets/AppIcon57x57@2x.png7ac8f44904e8b841^13b9fc4904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon57x57@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png Assets/AppIcon57x57@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon57x57@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon57x57@2x.png36"FF7B24DF-B346-49A4-9243-3931210C805A-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png Assets/AppIcon60x60.png
+s417858633.836485
+e417858633.868549
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png
+xAssets/AppIcon60x60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png Assets/AppIcon60x60.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png Assets/AppIcon60x60.png3334d64904e8b841^255ade4904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon60x60.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png Assets/AppIcon60x60.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon60x60.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60.png36"940DADA5-6DA9-4A82-863F-3AD823599346-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png Assets/AppIcon60x60@2x.png
+s417858634.022395
+e417858634.058887
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png
+xAssets/AppIcon60x60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png Assets/AppIcon60x60@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png Assets/AppIcon60x60@2x.png85cc054a04e8b841^59130f4a04e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon60x60@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png Assets/AppIcon60x60@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon60x60@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon60x60@2x.png36"48D5A5C1-0F9C-47A7-A842-397AAC3A3AD2-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png Assets/AppIcon72x72.png
+s417858633.928752
+e417858633.955351
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png
+xAssets/AppIcon72x72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png Assets/AppIcon72x72.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png Assets/AppIcon72x72.png99d3ed4904e8b841^3692f44904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon72x72.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png Assets/AppIcon72x72.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon72x72.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72.png36"60302F4A-6793-44F3-B9E6-0577B0BE0BAA-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png Assets/AppIcon72x72@2x.png
+s417858633.965707
+e417858633.990871
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png
+xAssets/AppIcon72x72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png Assets/AppIcon72x72@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png Assets/AppIcon72x72@2x.png3546f74904e8b841^50aafd4904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon72x72@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png Assets/AppIcon72x72@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon72x72@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon72x72@2x.png36"5B22032D-EBC3-4B20-A1BE-8BC53B150C22-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png Assets/AppIcon76x76.png
+s417858633.788011
+e417858633.834701
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png
+xAssets/AppIcon76x76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png Assets/AppIcon76x76.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png Assets/AppIcon76x76.png2dd1c94904e8b841^d9ccd54904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon76x76.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png Assets/AppIcon76x76.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon76x76.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76.png36"BC2608C9-EC2A-40C8-8E8B-E344F8221953-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png Assets/AppIcon76x76@2x.png
+s417858633.914145
+e417858633.939977
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png
+xAssets/AppIcon76x76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png Assets/AppIcon76x76@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png Assets/AppIcon76x76@2x.png7715ea4904e8b841^cba2f04904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon76x76@2x.png0000000000000000^628"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png Assets/AppIcon76x76@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/AppIcon76x76@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/AppIcon76x76@2x.png36"D65F4E6F-0E4C-4EBC-B33F-B5961E42CD40-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png Assets/Default_2x.png
+s417858633.836775
+e417858633.928516
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png
+xAssets/Default_2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png Assets/Default_2x.png90"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png Assets/Default_2x.png0c92d64904e8b841^0cb2ed4904e8b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Default_2x.png0000000000000000^608"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png Assets/Default_2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Default_2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_2x.png36"843CE558-F055-403C-A9F7-F170651906C2-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png Assets/Default_R4.png
+s417858633.835533
+e417858633.939031
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png
+xAssets/Default_R4.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png Assets/Default_R4.png90"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png Assets/Default_R4.pnga9fad54904e8b841^5265f04904e8b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Default_R4.png0000000000000000^608"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png Assets/Default_R4.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Default_R4.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Default_R4.png36"6E14F163-28C6-4D88-8C0D-D5DC4ADEC6CE-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png Assets/Favorites.png
+s417858633.793009
+e417858633.834826
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png
+xAssets/Favorites.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png Assets/Favorites.png88"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png Assets/Favorites.png0114cb4904e8b841^d0d2d54904e8b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Favorites.png0000000000000000^604"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png Assets/Favorites.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Favorites.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites.png36"E89F28D7-152E-46AA-A332-89F824FF2A55-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png Assets/Favorites@2x.png
+s417858633.837764
+e417858633.869424
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png
+xAssets/Favorites@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png Assets/Favorites@2x.png94"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png Assets/Favorites@2x.pnge886d64904e8b841^2993de4904e8b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Favorites@2x.png0000000000000000^616"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png Assets/Favorites@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Favorites@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Favorites@2x.png36"FA7C163A-8E51-4AC4-A5CF-5EFE0EFCCA17-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New.png Assets/New.png
+s417858633.788558
+e417858633.834390
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New.png
+xAssets/New.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/New.png Assets/New.png76"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/New.png Assets/New.png65fec94904e8b841^ffb0d54904e8b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/seville/Documents/github/ios/ASTweet/Assets/New.png0000000000000000^580"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/New.png Assets/New.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/New.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New.png36"4415163C-3CE6-40DF-8BB8-250F3012B979-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png Assets/New@2x.png
+s417858633.939488
+e417858633.965351
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png
+xAssets/New@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png Assets/New@2x.png82"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png Assets/New@2x.png2d94f04904e8b841^7121f74904e8b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/seville/Documents/github/ios/ASTweet/Assets/New@2x.png0000000000000000^592"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png Assets/New@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/New@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/New@2x.png36"39A16271-CC57-4C9D-BD98-50D561CB4BBE-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply.png Assets/Reply.png
+s417858633.789006
+e417858633.834425
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply.png
+xAssets/Reply.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Reply.png Assets/Reply.png80"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Reply.png Assets/Reply.png5b0cca4904e8b841^02bcd54904e8b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Reply.png0000000000000000^588"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Reply.png Assets/Reply.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Reply.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply.png36"A24A682D-09E9-4FD0-AABE-10C793B9625E-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png Assets/Reply@2x.png
+s417858633.787650
+e417858633.835423
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png
+xAssets/Reply@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png Assets/Reply@2x.png86"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png Assets/Reply@2x.png82aec94904e8b841^9cded54904e8b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Reply@2x.png0000000000000000^600"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png Assets/Reply@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Reply@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Reply@2x.png36"F38514F9-084A-4556-815A-BE2DBB6CC42A-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png Assets/Syncing.png
+s417858633.836213
+e417858633.862300
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png
+xAssets/Syncing.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png Assets/Syncing.png84"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png Assets/Syncing.png2520d64904e8b841^bec0dc4904e8b841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Syncing.png0000000000000000^596"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png Assets/Syncing.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Syncing.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing.png36"C350F700-5FE7-4171-BCD1-922F8E9B7DFB-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png Assets/Syncing@2x.png
+s417858634.059043
+e417858634.088520
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png
+xAssets/Syncing@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png Assets/Syncing@2x.png90"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png Assets/Syncing@2x.png9d2e0f4a04e8b841^c5a9164a04e8b841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/seville/Documents/github/ios/ASTweet/Assets/Syncing@2x.png0000000000000000^608"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png Assets/Syncing@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/Syncing@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Syncing@2x.png36"D299059A-DF8D-439F-8C68-AE8A368A43E3-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png Assets/iTunesArtwork.png
+s417858633.788964
+e417858633.857927
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png
+xAssets/iTunesArtwork.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png Assets/iTunesArtwork.png96"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png Assets/iTunesArtwork.pngcc0dca4904e8b841^c2a1db4904e8b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork.png0000000000000000^620"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png Assets/iTunesArtwork.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork.png36"957D2887-04DC-4F35-A8BF-D017C0F20015-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPNGFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png Assets/iTunesArtwork@2x.png
+s417858633.898632
+e417858634.021221
+r1
+xCopyPNGFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png
+xAssets/iTunesArtwork@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png Assets/iTunesArtwork@2x.png102"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png Assets/iTunesArtwork@2x.png8f1be64904e8b841^226f054a04e8b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork@2x.png0000000000000000^632"CopyPNGFile Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png Assets/iTunesArtwork@2x.png    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/seville/Documents/github/ios/ASTweet/Assets/iTunesArtwork@2x.png /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/iTunesArtwork@2x.png36"432B5731-2A85-47E8-AD3D-A45496C15297-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/TwitterAPI.plist TwitterAPI.plist
+s417858633.788196
+e417858633.792716
+r1
+xCopyPlistFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/TwitterAPI.plist
+xTwitterAPI.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Copy TwitterAPI.plist89"CopyPlistFile Build/Products/Debug-iphoneos/ASTweet.app/TwitterAPI.plist TwitterAPI.plist4dd9c94904e8b841^8ec9ca4904e8b841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/seville/Documents/github/ios/ASTweet/TwitterAPI.plist0000000000000000^484"CopyPlistFile Build/Products/Debug-iphoneos/ASTweet.app/TwitterAPI.plist TwitterAPI.plist    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app -- TwitterAPI.plist36"8247408A-7D68-4B02-807C-0EC5CFEEC904-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCopyStringsFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/en.lproj/InfoPlist.strings ASTweet/en.lproj/InfoPlist.strings
+s417858633.834938
+e417858633.837628
+r1
+xCopyStringsFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/en.lproj/InfoPlist.strings
+xASTweet/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy ASTweet/en.lproj/InfoPlist.strings119"CopyStringsFile Build/Products/Debug-iphoneos/ASTweet.app/en.lproj/InfoPlist.strings ASTweet/en.lproj/InfoPlist.stringse0dad54904e8b841^0742d64904e8b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/en.lproj/InfoPlist.strings0000000000000000^582"CopyStringsFile Build/Products/Debug-iphoneos/ASTweet.app/en.lproj/InfoPlist.strings ASTweet/en.lproj/InfoPlist.strings    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/en.lproj -- ASTweet/en.lproj/InfoPlist.strings36"43F6DB44-1615-4EB6-863A-409F6F19969A-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist
+s417858633.235329
+e417858633.236997
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist194"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.pliste34f3c4904e8b841^21ae3c4904e8b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist00340030deffdf42^754"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app36"74454EFB-445B-4D76-8F2E-63AD865E8B98-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CGenerateDSYMFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet
+s417898037.641162
+e417898037.710678
+r1
+xGenerateDSYMFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generate /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM113"GenerateDSYMFile Build/Products/Debug-iphoneos/ASTweet.app.dSYM Build/Products/Debug-iphoneos/ASTweet.app/ASTweetf12da4359ee8b841^2cf0b5359ee8b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM/0000000000000000^641"GenerateDSYMFile Build/Products/Debug-iphoneos/ASTweet.app.dSYM Build/Products/Debug-iphoneos/ASTweet.app/ASTweet    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app.dSYM36"AFCAD594-60FA-470C-946C-B44E1F09939F-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CLd /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet normal armv7s
+s417898037.440550
+e417898037.636025
+r1
+xLd
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet
+xnormal
+xarmv7s
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.LinkFileList
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetStatusTableViewCell.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASAppDelegate.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetTableViewCell.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetTableViewCell.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/main.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASComposeTweetViewController.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTwitterAPI.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASUser.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASDetailedTweetActionsTableViewCell.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweetViewController.o
+d/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTimelineViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet66"Ld Build/Products/Debug-iphoneos/ASTweet.app/ASTweet normal armv7s5ed670359ee8b841^20d3a2359ee8b841^---0#0#1#--1466"Ld Build/Products/Debug-iphoneos/ASTweet.app/ASTweet normal armv7s    cd /Users/seville/Documents/github/ios/ASTweet    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -filelist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet.LinkFileList -dead_strip -ObjC -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Objects-normal/armv7s/ASTweet_dependency_info.dat -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ASTweet36"20FDBCC9-D27F-4395-BE6C-A179B7BAEEDA-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh
+s417898036.907700
+e417898036.923522
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'145"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh19cbe8349ee8b841^556cec349ee8b841^---0#0#1#--354"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh    cd /Users/seville/Documents/github/ios/ASTweet    /bin/sh -c /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-116F319B9860445580C44C11.sh36"F129E8AD-57BE-4786-9D02-5F962E37A360-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh
+s417898037.711523
+e417898039.224149
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh
+o/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/en.lproj
+o/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/nl.lproj
+o/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+obuilding file list ... done
+o
+osent 264 bytes  received 20 bytes  568.00 bytes/sec
+ototal size is 6961  speedup is 24.51
+o2014-03-30 11:47:19.141 IBCocoaTouchImageCatalogTool[732:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'140"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh4c70b6359ee8b841^e56139379ee8b841^-749"/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/en.lproj/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/nl.lproj/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundlebuilding file list ... donesent 264 bytes  received 20 bytes  568.00 bytes/sectotal size is 6961  speedup is 24.512014-03-30 11:47:19.141 IBCocoaTouchImageCatalogTool[732:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Assets.car9(21%IDEActivityLogMessage2@84"/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/en.lproj-417898037#0#84#-0#-----2@84"/Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/nl.lproj-417898037#84#84#-0#-----2@98"/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle-417898037#168#98#-0#-----2@28"building file list ... done-417898037#266#28#-0#-----2@52"sent 264 bytes  received 20 bytes  568.00 bytes/sec-417898037#295#52#-0#-----2@37"total size is 6961  speedup is 24.51-417898037#347#37#-0#-----2@224"2014-03-30 11:47:19.141 IBCocoaTouchImageCatalogTool[732:303] CFPreferences: user home directory at file:///Users/seville/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-417898039#384#224#-0#-----2@43"/* com.apple.actool.compilation-results */-417898039#608#43#-0#-----2@97"/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Assets.car-417898039#651#97#-0#-----0#0#1#--349"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh    cd /Users/seville/Documents/github/ios/ASTweet    /bin/sh -c /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/Script-1BCA3A006BAC4D428CFC8F5F.sh36"248A1122-B8B5-4B3C-BAA0-F90A97893FB7-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CProcessInfoPlistFile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Info.plist /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
+s417858636.431343
+e417858636.433072
+r1
+xProcessInfoPlistFile
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Info.plist
+x/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist100"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ASTweet.app/Info.plist ASTweet/ASTweet-Info.plist317a6e4c04e8b841^87de6e4c04e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist0000000000000000^990"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ASTweet.app/Info.plist ASTweet/ASTweet-Info.plist    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Info.plist -genpkginfo /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/ResourceRules.plist -additionalcontentfile /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/assetcatalog_generated_info.plist -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/Info.plist36"EFAC9334-5416-4E25-A617-1E23EADC311C-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417858633.253553
+e417858633.306702
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch
+xASTweet/ASTweet-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ASTweet/ASTweet-Prefix.pch213"ProcessPCH Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler65fb404904e8b841^77854e4904e8b841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch0000000000000000^4100"ProcessPCH Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources/armv7s -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -isystem/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/ASTweet/ASTweet-Prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/ASTweet-Prefix-cejcmfbynugjcxfjgilhuoersjuc/ASTweet-Prefix.pch.pch36"7EEC556D-0980-431D-83AA-C40830834C8C-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/ASTweet-Prefix-bodyireuezrzbaescmggkukfagad_ast/ASTweet-Prefix.pch.pch ASTweet/ASTweet-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent
+s417898039.225986
+e417898039.227527
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent13ee39379ee8b841^bc3f3a379ee8b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent0000000000000000^768"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/ASTweet.build/Debug-iphoneos/ASTweet.build/ASTweet.xcent36"CA59AB5C-710F-4FE2-808B-BAE3584D44ED-
+b2794BA17-B20A-4046-ADFD-D52A64E55B0D
+
+CProcessProductPackaging /Users/seville/Library/MobileDevice/Provisioning\ Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision
+s417858637.350766
+e417858637.354918
+r1
+xProcessProductPackaging
+x/Users/seville/Library/MobileDevice/Provisioning Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection202"ProcessProductPackaging /Users/seville/Library/MobileDevice/Provisioning\ Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision202"ProcessProductPackaging /Users/seville/Library/MobileDevice/Provisioning\ Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision16da594d04e8b841^90dc5a4d04e8b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision00340030deffdf42^704"ProcessProductPackaging /Users/seville/Library/MobileDevice/Provisioning\ Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision    cd /Users/seville/Documents/github/ios/ASTweet    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/seville/Library/MobileDevice/Provisioning\ Profiles/9FE4319D-8ADF-491D-9255-C6FFF88AFF25.mobileprovision -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app/embedded.mobileprovision36"57D3B9F2-4666-4E57-A179-5DC21BED7C2E-
+b4403D392-AD8A-469A-9B08-41EB883AB00D
+
+CTouch /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphoneos/ASTweet.app
+r0
+

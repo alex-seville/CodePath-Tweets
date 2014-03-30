@@ -1,0 +1,195 @@
+TPods-SVProgressHUD
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053273EA000000000000003B4
+t1395080864
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053273EA4000000000000019E
+t1395080868
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053273EB60000000000000ADC
+t1395080886
+s2780
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o
+t1396212916
+s3468
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD.LinkFileList
+c00000000533884B40000000000000147
+t1396212916
+s327
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o
+t1396212916
+s110292
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch
+t1396212916
+s128200
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch
+t1396212916
+s127188
+
+N/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a
+t1396212916
+s114608
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m
+c00000000533758FA000000000000008C
+t1396136186
+s140
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch
+c00000000533758FA000000000000004D
+t1396136186
+s77
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-environment.h
+c00000000533758FA0000000000000A4D
+t1396136186
+s2637
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h
+c00000000533758FA00000000000007D2
+t1396136186
+s2002
+
+N/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+c00000000533758FA0000000000004886
+t1396136186
+s18566
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m
+r0
+
+CBuild AST from /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies94dbaeeac2e8b841^cbf8afeac2e8b841^---0#1#1#--18"Check dependencies36"7EE9919B-1C14-4754-BB5D-C2F211203913-
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417905716.587304
+e417905716.621250
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m272"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o Pods-SVProgressHUD-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4b749634bce8b841^180b9f34bce8b841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m0000000000000000^4352"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o Pods-SVProgressHUD-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-dummy.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD-dummy.o36"0C984692-72F1-4B10-9FD6-5D31D7E6082C-
+b93915855-77CC-4E10-A955-13E6733C1304
+
+CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417905716.587691
+e417905716.733752
+r1
+xCompileC
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o
+x/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+d/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h
+o/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m:180:37: warning: 'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]
+o        CGSize stringSize = [string sizeWithFont:self.stringLabel.font constrainedToSize:CGSizeMake(200, 300)];
+o                                    ^
+oIn module 'UIKit' imported from /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h:10:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:69:1: note: method 'sizeWithFont:constrainedToSize:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // Uses NSLineBreakModeWordWrap
+o^
+o/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m:455:31: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o                stringLabel.textAlignment = UITextAlignmentCenter;
+o                                            ^
+oIn module 'UIKit' imported from /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h:10:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentCenter' declared here
+o    UITextAlignmentCenter,
+o    ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m278"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o SVProgressHUD/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler66859634bce8b841^f4dfbb34bce8b841^-1726"/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m:180:37: warning: 'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]        CGSize stringSize = [string sizeWithFont:self.stringLabel.font constrainedToSize:CGSizeMake(200, 300)];                                    ^In module 'UIKit' imported from /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h:10:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:69:1: note: method 'sizeWithFont:constrainedToSize:' declared here- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // Uses NSLineBreakModeWordWrap^/Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m:455:31: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]                stringLabel.textAlignment = UITextAlignmentCenter;                                            ^In module 'UIKit' imported from /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h:10:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentCenter' declared here    UITextAlignmentCenter,    ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@132"'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:-417905716#18446744073709551615#0#1(2@54"Method 'sizeWithFont:constrainedToSize:' declared here-417905716#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^68#0#68#0#4211#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file:///Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m0000000000000000^179#36#179#36#5897#0#12"Deprecations--2@66"'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0-417905716#18446744073709551615#0#1(2@37"'UITextAlignmentCenter' declared here-417905716#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^41#4#41#4#2493#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file:///Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m0000000000000000^454#30#454#30#16431#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@99"file:///Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m0000000000000000^4376"CompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o SVProgressHUD/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.d --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.dia -c /Users/seville/Documents/github/ios/ASTweet/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/SVProgressHUD.o36"A76F2C74-D26B-4FDA-8346-99AA826FB408-
+b93915855-77CC-4E10-A955-13E6733C1304
+
+CLibtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a normal i386
+s417905716.761790
+e417905716.769429
+r1
+xLibtool
+x/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a normal i386124"Libtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a normal i3866d1ac334bce8b841^43ffc434bce8b841^---0#0#1#--1088"Libtool /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a normal i386    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -filelist /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Objects-normal/i386/Pods-SVProgressHUD.LinkFileList -framework Foundation -framework QuartzCore -o /Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/libPods-SVProgressHUD.a36"92C953C6-89B1-456D-A82F-4DA0C875DED1-
+b93915855-77CC-4E10-A955-13E6733C1304
+
+CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417905716.543742
+e417905716.586727
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch
+xPods-SVProgressHUD-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Precompile Pods-SVProgressHUD-prefix.pch280"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1d578b34bce8b841^be339634bce8b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch0000000000000000^4232"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-aneiqknedktvhwbqpznsywoplkfw/Pods-SVProgressHUD-prefix.pch.pch36"DACADC51-FBB6-4D7F-87E7-5290955728B8-
+b93915855-77CC-4E10-A955-13E6733C1304
+
+CProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417905716.542934
+e417905716.585750
+r1
+xProcessPCH
+x/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch
+xPods-SVProgressHUD-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch
+d/Users/seville/Documents/github/ios/ASTweet/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Precompile Pods-SVProgressHUD-prefix.pch280"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler392a8b34bce8b841^b2f49534bce8b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch0000000000000000^4198"ProcessPCH /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seville/Documents/github/ios/ASTweet/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/seville/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-generated-files.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-own-target-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-all-target-headers.hmap -iquote /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/Pods-SVProgressHUD-project-headers.hmap -I/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator/include -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders -I/Users/seville/Documents/github/ios/ASTweet/Pods/BuildHeaders/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/AFNetworking -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/BDBOAuth1Manager -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/MHPrettyDate -I/Users/seville/Documents/github/ios/ASTweet/Pods/Headers/SVProgressHUD -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources/i386 -I/Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SVProgressHUD.build/DerivedSources -F/Users/seville/Documents/github/ios/ASTweet/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.dia -MMD -MT dependencies -MF /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.d -c /Users/seville/Documents/github/ios/ASTweet/Pods/Pods-SVProgressHUD-prefix.pch -o /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/PrecompiledHeaders/Pods-SVProgressHUD-prefix-bakzgsxhoqhtricsakswjpnqqjka/Pods-SVProgressHUD-prefix.pch.pch36"3583516E-A7F6-4AD3-8471-D212F2E82B49-
+b93915855-77CC-4E10-A955-13E6733C1304
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/Pods-SVProgressHUD-prefix-ddxczgvofylvsdclirtywgphisfb_ast/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/seville/Library/Developer/Xcode/DerivedData/ASTweet-bxgshejpowyefjhjacdztesypmco/Index/PrecompiledHeaders/Pods-SVProgressHUD-prefix-gsyuyuuttiknykffrgbjlxhyvtsf_ast/Pods-SVProgressHUD-prefix.pch.pch Pods-SVProgressHUD-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
