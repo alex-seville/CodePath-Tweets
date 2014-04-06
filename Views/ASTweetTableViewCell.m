@@ -26,6 +26,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *favoriteButtonLabel;
 @property (weak, nonatomic) IBOutlet UILabel *favoriteLabel;
+- (IBAction)onTapProfileImage:(UITapGestureRecognizer *)sender;
 
 @end
 
@@ -36,6 +37,12 @@
     // Initialization code
     self.userProfileImage.layer.masksToBounds = YES;
     self.userProfileImage.layer.cornerRadius = 5.0;
+    
+    UITapGestureRecognizer *profileTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTapProfileImage:)];
+    profileTap.delaysTouchesBegan = YES;
+    profileTap.numberOfTapsRequired = 1;
+    [self.userProfileImage addGestureRecognizer:profileTap];
+    
     
 }
 
@@ -98,5 +105,9 @@
 }
 - (IBAction)favoriteButtonClick:(id)sender {
     [_delegate didClickFavorite:_tweet];
+}
+- (IBAction)onTapProfileImage:(UITapGestureRecognizer *)sender {
+    NSLog(@"tapped profile image");
+    [_delegate didClickProfile:_tweet.user];
 }
 @end

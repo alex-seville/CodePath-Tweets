@@ -10,23 +10,35 @@
 		</data>
 		<key>ASDetailedTweetActionsTableViewCell.nib</key>
 		<data>
-		y9ATwGlB6tLujai7s3kVt7pE/rg=
+		oMwmH9XaF57SI9hpcGo7KTA47Jo=
 		</data>
 		<key>ASDetailedTweetStatusTableViewCell.nib</key>
 		<data>
-		Y0cxRhDxOuCCZL2inQJWhBGIZBE=
+		LIxzXwTCFMH77A7UL/Abqjf0NG0=
 		</data>
 		<key>ASDetailedTweetTableViewCell.nib</key>
 		<data>
 		2nMFeTHuga+6itZPdp3y8Jv79Oo=
 		</data>
+		<key>ASHamburgerViewController.nib</key>
+		<data>
+		Aw3ldLlm3tzT/XUzlK9SywYXKqc=
+		</data>
+		<key>ASMainViewController.nib</key>
+		<data>
+		+y3OVh71P2uv8BXBpE3gam/AsXE=
+		</data>
+		<key>ASProfileViewController.nib</key>
+		<data>
+		hWDL2ZDLApTtEvbkkPL6Tr8/omc=
+		</data>
 		<key>ASTimelineViewController.nib</key>
 		<data>
-		k6+XGnvXNGrEt7YhT3ctZHPMYIo=
+		iT976dVJhbPAhjsfRYKosnUHTHY=
 		</data>
 		<key>ASTweetTableViewCell.nib</key>
 		<data>
-		eiea3tH6uuv6rqN0bCIp2Gu8zUA=
+		js38Wj9MrN9h9NWwo+JzdMLeyqc=
 		</data>
 		<key>ASTweetViewController.nib</key>
 		<data>
@@ -90,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bPwqViF5HSOMysJ5j917rChivn4=
+		fzMP4JH6wpmjOxBxcxcVTC1HiQ8=
 		</data>
 		<key>Default_2x.png</key>
 		<data>
@@ -183,6 +195,10 @@
 		<key>iTunesArtwork@2x.png</key>
 		<data>
 		kQ/BO1GGi6lfxu3lMcFzNc9q028=
+		</data>
+		<key>menu.png</key>
+		<data>
+		3vZ86dm9+fErz7SaKunAa4hy+ww=
 		</data>
 		<key>nl.lproj/MHPrettyDate.strings</key>
 		<data>
@@ -197,23 +213,35 @@
 		</data>
 		<key>ASDetailedTweetActionsTableViewCell.nib</key>
 		<data>
-		y9ATwGlB6tLujai7s3kVt7pE/rg=
+		oMwmH9XaF57SI9hpcGo7KTA47Jo=
 		</data>
 		<key>ASDetailedTweetStatusTableViewCell.nib</key>
 		<data>
-		Y0cxRhDxOuCCZL2inQJWhBGIZBE=
+		LIxzXwTCFMH77A7UL/Abqjf0NG0=
 		</data>
 		<key>ASDetailedTweetTableViewCell.nib</key>
 		<data>
 		2nMFeTHuga+6itZPdp3y8Jv79Oo=
 		</data>
+		<key>ASHamburgerViewController.nib</key>
+		<data>
+		Aw3ldLlm3tzT/XUzlK9SywYXKqc=
+		</data>
+		<key>ASMainViewController.nib</key>
+		<data>
+		+y3OVh71P2uv8BXBpE3gam/AsXE=
+		</data>
+		<key>ASProfileViewController.nib</key>
+		<data>
+		hWDL2ZDLApTtEvbkkPL6Tr8/omc=
+		</data>
 		<key>ASTimelineViewController.nib</key>
 		<data>
-		k6+XGnvXNGrEt7YhT3ctZHPMYIo=
+		iT976dVJhbPAhjsfRYKosnUHTHY=
 		</data>
 		<key>ASTweetTableViewCell.nib</key>
 		<data>
-		eiea3tH6uuv6rqN0bCIp2Gu8zUA=
+		js38Wj9MrN9h9NWwo+JzdMLeyqc=
 		</data>
 		<key>ASTweetViewController.nib</key>
 		<data>
@@ -277,7 +305,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bPwqViF5HSOMysJ5j917rChivn4=
+		fzMP4JH6wpmjOxBxcxcVTC1HiQ8=
 		</data>
 		<key>Default_2x.png</key>
 		<data>
@@ -370,6 +398,10 @@
 		<key>iTunesArtwork@2x.png</key>
 		<data>
 		kQ/BO1GGi6lfxu3lMcFzNc9q028=
+		</data>
+		<key>menu.png</key>
+		<data>
+		3vZ86dm9+fErz7SaKunAa4hy+ww=
 		</data>
 		<key>nl.lproj/MHPrettyDate.strings</key>
 		<data>

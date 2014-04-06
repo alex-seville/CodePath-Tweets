@@ -20,6 +20,8 @@ extern NSString * const UserLoggedInNotification;
 @property (nonatomic, strong) NSString *profileBackgroundColor;
 @property (nonatomic, strong) NSString *profileBackgroundImageURL;
 @property (nonatomic, strong) NSString *profileImageURL;
+@property (nonatomic, assign) NSInteger followingCount;
+@property (nonatomic, assign) NSInteger tweetCount;
 
 + (ASUser *)currentUser;
 + (NSString *)getFormattedScreenName:(NSString *)screenName;

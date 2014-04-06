@@ -63,6 +63,15 @@
 		65D0AC5118E74FCE00C4637B /* Syncing.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4A18E74FCE00C4637B /* Syncing.png */; };
 		65D0AC5218E74FCE00C4637B /* Syncing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0AC4B18E74FCE00C4637B /* Syncing@2x.png */; };
 		65DFB17B18E5322200D34992 /* ASUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DFB17A18E5322200D34992 /* ASUser.m */; };
+		65E4E52D18EFAFFB00559B80 /* ASHamburgerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E4E52B18EFAFFB00559B80 /* ASHamburgerViewController.m */; };
+		65E4E52E18EFAFFB00559B80 /* ASHamburgerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E4E52C18EFAFFB00559B80 /* ASHamburgerViewController.xib */; };
+		65E4E53018EFC4B800559B80 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E4E52F18EFC4B800559B80 /* menu.png */; };
+		65E4E53418EFCAE400559B80 /* ASMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E4E53218EFCAE400559B80 /* ASMainViewController.m */; };
+		65E4E53518EFCAE400559B80 /* ASMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E4E53318EFCAE400559B80 /* ASMainViewController.xib */; };
+		65E4E53918F0B87400559B80 /* ASProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E4E53718F0B87400559B80 /* ASProfileViewController.m */; };
+		65E4E53A18F0B87400559B80 /* ASProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E4E53818F0B87400559B80 /* ASProfileViewController.xib */; };
+		65E4E54118F1CC7E00559B80 /* ASProfileStatsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E4E53F18F1CC7E00559B80 /* ASProfileStatsTableViewCell.m */; };
+		65E4E54218F1CC7E00559B80 /* ASProfileStatsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E4E54018F1CC7E00559B80 /* ASProfileStatsTableViewCell.xib */; };
 		CB2F746505D346FB91DCB296 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EF68A9299B43758FA4DFF9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -148,6 +157,19 @@
 		65D0AC4B18E74FCE00C4637B /* Syncing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syncing@2x.png"; sourceTree = "<group>"; };
 		65DFB17918E5322200D34992 /* ASUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASUser.h; path = Models/ASUser.h; sourceTree = "<group>"; };
 		65DFB17A18E5322200D34992 /* ASUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASUser.m; path = Models/ASUser.m; sourceTree = "<group>"; };
+		65E4E52A18EFAFFB00559B80 /* ASHamburgerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASHamburgerViewController.h; path = ViewControllers/ASHamburgerViewController.h; sourceTree = SOURCE_ROOT; };
+		65E4E52B18EFAFFB00559B80 /* ASHamburgerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASHamburgerViewController.m; path = ViewControllers/ASHamburgerViewController.m; sourceTree = SOURCE_ROOT; };
+		65E4E52C18EFAFFB00559B80 /* ASHamburgerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASHamburgerViewController.xib; path = ViewControllers/ASHamburgerViewController.xib; sourceTree = SOURCE_ROOT; };
+		65E4E52F18EFC4B800559B80 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		65E4E53118EFCAE400559B80 /* ASMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMainViewController.h; sourceTree = "<group>"; };
+		65E4E53218EFCAE400559B80 /* ASMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMainViewController.m; sourceTree = "<group>"; };
+		65E4E53318EFCAE400559B80 /* ASMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASMainViewController.xib; sourceTree = "<group>"; };
+		65E4E53618F0B87400559B80 /* ASProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASProfileViewController.h; path = ViewControllers/ASProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		65E4E53718F0B87400559B80 /* ASProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASProfileViewController.m; path = ViewControllers/ASProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		65E4E53818F0B87400559B80 /* ASProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASProfileViewController.xib; path = ViewControllers/ASProfileViewController.xib; sourceTree = SOURCE_ROOT; };
+		65E4E53E18F1CC7E00559B80 /* ASProfileStatsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASProfileStatsTableViewCell.h; path = Views/ASProfileStatsTableViewCell.h; sourceTree = "<group>"; };
+		65E4E53F18F1CC7E00559B80 /* ASProfileStatsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASProfileStatsTableViewCell.m; path = Views/ASProfileStatsTableViewCell.m; sourceTree = "<group>"; };
+		65E4E54018F1CC7E00559B80 /* ASProfileStatsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASProfileStatsTableViewCell.xib; path = Views/ASProfileStatsTableViewCell.xib; sourceTree = "<group>"; };
 		9310B862D49942FEB937556F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +213,9 @@
 				65D0AC4018E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.h */,
 				65D0AC4118E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m */,
 				65D0AC4218E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib */,
+				65E4E53E18F1CC7E00559B80 /* ASProfileStatsTableViewCell.h */,
+				65E4E53F18F1CC7E00559B80 /* ASProfileStatsTableViewCell.m */,
+				65E4E54018F1CC7E00559B80 /* ASProfileStatsTableViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -198,6 +223,7 @@
 		659F84BB18E4BB9D001026E7 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				65E4E52F18EFC4B800559B80 /* menu.png */,
 				65D0AC4518E74FCE00C4637B /* Favorites.png */,
 				65D0AC4618E74FCE00C4637B /* Favorites@2x.png */,
 				65D0AC4718E74FCE00C4637B /* New.png */,
@@ -318,6 +344,15 @@
 				659CDE4018E73B4300B24CC6 /* ASComposeTweetViewController.h */,
 				659CDE4118E73B4300B24CC6 /* ASComposeTweetViewController.m */,
 				659CDE4218E73B4300B24CC6 /* ASComposeTweetViewController.xib */,
+				65E4E52A18EFAFFB00559B80 /* ASHamburgerViewController.h */,
+				65E4E52B18EFAFFB00559B80 /* ASHamburgerViewController.m */,
+				65E4E52C18EFAFFB00559B80 /* ASHamburgerViewController.xib */,
+				65E4E53118EFCAE400559B80 /* ASMainViewController.h */,
+				65E4E53218EFCAE400559B80 /* ASMainViewController.m */,
+				65E4E53318EFCAE400559B80 /* ASMainViewController.xib */,
+				65E4E53618F0B87400559B80 /* ASProfileViewController.h */,
+				65E4E53718F0B87400559B80 /* ASProfileViewController.m */,
+				65E4E53818F0B87400559B80 /* ASProfileViewController.xib */,
 			);
 			name = ViewControllers;
 			path = ASTweet;
@@ -433,21 +468,26 @@
 				65B74F0318E3EE2300169B3A /* InfoPlist.strings in Resources */,
 				659F84BF18E4BB9D001026E7 /* Default_R4.png in Resources */,
 				65D0AC3F18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.xib in Resources */,
+				65E4E53018EFC4B800559B80 /* menu.png in Resources */,
 				659CDE3818E72B8800B24CC6 /* ASTweetViewController.xib in Resources */,
 				65D0AC5118E74FCE00C4637B /* Syncing.png in Resources */,
 				659F84D818E4BD0C001026E7 /* AppIcon60x60.png in Resources */,
+				65E4E53A18F0B87400559B80 /* ASProfileViewController.xib in Resources */,
 				65B74F0B18E3EE2300169B3A /* Images.xcassets in Resources */,
 				659F84BE18E4BB9D001026E7 /* Default_2x.png in Resources */,
 				65D0AC4D18E74FCE00C4637B /* Favorites@2x.png in Resources */,
 				659F84D618E4BD0C001026E7 /* AppIcon57x57.png in Resources */,
 				659F84D318E4BD0C001026E7 /* AppIcon40x40@2x.png in Resources */,
+				65E4E54218F1CC7E00559B80 /* ASProfileStatsTableViewCell.xib in Resources */,
 				659F84D018E4BD0C001026E7 /* AppIcon29x29.png in Resources */,
 				65D0AC4418E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.xib in Resources */,
+				65E4E53518EFCAE400559B80 /* ASMainViewController.xib in Resources */,
 				659F84D518E4BD0C001026E7 /* AppIcon50x50@2x.png in Resources */,
 				659CDE3018E66D4300B24CC6 /* ASTweetTableViewCell.xib in Resources */,
 				659F84DF18E4BD0C001026E7 /* iTunesArtwork@2x.png in Resources */,
 				659F84DD18E4BD0C001026E7 /* AppIcon76x76@2x.png in Resources */,
 				659F84DA18E4BD0C001026E7 /* AppIcon72x72.png in Resources */,
+				65E4E52E18EFAFFB00559B80 /* ASHamburgerViewController.xib in Resources */,
 				659CDE3F18E737E900B24CC6 /* New@2x.png in Resources */,
 				659CDE3D18E731ED00B24CC6 /* ASDetailedTweetTableViewCell.xib in Resources */,
 				659F84D718E4BD0C001026E7 /* AppIcon57x57@2x.png in Resources */,
@@ -511,15 +551,19 @@
 				65D0AC3E18E74DB000C4637B /* ASDetailedTweetStatusTableViewCell.m in Sources */,
 				65B74F0918E3EE2300169B3A /* ASAppDelegate.m in Sources */,
 				659CDE3C18E731ED00B24CC6 /* ASDetailedTweetTableViewCell.m in Sources */,
+				65E4E52D18EFAFFB00559B80 /* ASHamburgerViewController.m in Sources */,
 				659CDE2F18E66D4300B24CC6 /* ASTweetTableViewCell.m in Sources */,
 				659CDE3318E677C600B24CC6 /* ASTweet.m in Sources */,
 				65B74F0518E3EE2300169B3A /* main.m in Sources */,
+				65E4E53418EFCAE400559B80 /* ASMainViewController.m in Sources */,
 				659CDE4318E73B4300B24CC6 /* ASComposeTweetViewController.m in Sources */,
 				65B74F3A18E3F94900169B3A /* ASTwitterAPI.m in Sources */,
 				65DFB17B18E5322200D34992 /* ASUser.m in Sources */,
 				65D0AC4318E74EF600C4637B /* ASDetailedTweetActionsTableViewCell.m in Sources */,
 				659CDE3718E72B8800B24CC6 /* ASTweetViewController.m in Sources */,
+				65E4E53918F0B87400559B80 /* ASProfileViewController.m in Sources */,
 				65B74F3018E3F06D00169B3A /* ASTimelineViewController.m in Sources */,
+				65E4E54118F1CC7E00559B80 /* ASProfileStatsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

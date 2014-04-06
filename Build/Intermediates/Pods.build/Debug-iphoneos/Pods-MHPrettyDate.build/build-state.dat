@@ -91,7 +91,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies03ead1349ee8b841^1650d8349ee8b841^---0#1#1#--18"Check dependencies36"17E562BF-6437-4248-ACDA-6868B8B806F8-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2e1d47a71bf1b841^359949a71bf1b841^---0#1#1#--18"Check dependencies36"077A120A-BC04-4BB6-BEDA-F602CA6684E7-
 
 CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-MHPrettyDate.build/Objects-normal/armv7s/MHPrettyDate.o /Users/seville/Documents/github/ios/ASTweet/Pods/MHPrettyDate/MHPrettyDate/MHPrettyDate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417858632.410579

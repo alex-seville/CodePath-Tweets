@@ -208,7 +208,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies938fe1349ee8b841^decbe1349ee8b841^---0#1#1#--18"Check dependencies36"AA2DCFD7-404B-4773-A593-E3C3BCBFD167-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd9224da71bf1b841^4cdd4da71bf1b841^---0#1#1#--18"Check dependencies36"C9DBA53A-FA1B-4C58-95DD-E8B72E35C7ED-
 
 CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-BDBOAuth1Manager.build/Objects-normal/armv7s/BDBOAuth1RequestOperationManager.o /Users/seville/Documents/github/ios/ASTweet/Pods/BDBOAuth1Manager/BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417858632.989175

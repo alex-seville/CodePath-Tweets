@@ -38,7 +38,9 @@ static ASUser *currentUser = nil;
         @"profile_background_image_url": self.profileBackgroundImageURL,
         @"profile_image_url": self.profileImageURL,
         @"screen_name": self.screenName,
-        @"profile_background_image_url": self.profileBackgroundImageURL
+        @"profile_background_image_url": self.profileBackgroundImageURL,
+        @"friends_count": [NSString stringWithFormat:@"%i",self.followingCount],
+        @"statuses_count_count": [NSString stringWithFormat:@"%i",self.tweetCount]
              };
 }
 
@@ -54,7 +56,8 @@ static ASUser *currentUser = nil;
     self.profileImageURL = userDictionary[@"profile_image_url"];
     self.screenName = userDictionary[@"screen_name"];
     self.profileBackgroundImageURL = userDictionary[@"profile_background_image_url"];
-    
+    self.followingCount = [userDictionary[@"friends_count"] intValue];
+    self.tweetCount = [userDictionary[@"statuses_count"] intValue];
     
     return self;
 }

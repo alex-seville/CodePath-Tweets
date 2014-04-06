@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "ASTweet.h"
+#import "ASUser.h"
 
 @protocol ASTweetActionsDelegate <NSObject>
 @required
 - (void)didClickReply:(ASTweet *)tweet;
 - (void)didClickRetweet:(ASTweet *)tweet;
 - (void)didClickFavorite:(ASTweet *)tweet;
+- (void)didClickProfile:(ASUser *)user;
 
 @end
 

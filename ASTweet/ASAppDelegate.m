@@ -7,6 +7,7 @@
 //
 
 #import "ASAppDelegate.h"
+#import "ASMainViewController.h"
 #import "ASTimelineViewController.h"
 #import "ASTwitterAPI.h"
 #import "ASUser.h"
@@ -25,7 +26,7 @@
     /*
      NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
     [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
-     */
+    */
     /* remove */
     
     
@@ -86,7 +87,7 @@
             [[NSNotificationCenter defaultCenter] addObserver:self
                                                      selector:@selector(showTimelineTable)
                                                          name:UserLoggedInNotification object:nil];
-            
+            NSLog(@"Response: %@", responseObject);
             [[[ASUser alloc] initWithDictionary:responseObject] setAsCurrentUser];
                         
             
@@ -100,21 +101,24 @@
 }
 
 - (void) showTimelineTable {
-    ASTimelineViewController *timelineViewController = [[ASTimelineViewController alloc] init];
+    ASMainViewController *mainViewController = [[ASMainViewController alloc] init];
+    ASTimelineViewController *tvc = [[ASTimelineViewController alloc] init];
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:timelineViewController];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
-    self.window.backgroundColor = timelineViewController.view.backgroundColor;
+    self.window.backgroundColor = tvc.view.backgroundColor;
     /* add the tweet colors to things */
-    [nav.navigationBar setBarTintColor:timelineViewController.view.backgroundColor];
+    [nav.navigationBar setBarTintColor:tvc.view.backgroundColor];
     [nav.navigationBar setTranslucent:NO];
     [nav.navigationBar setBarStyle:UIBarStyleBlack];
-    timelineViewController.title = @"Tweet!";
+    mainViewController.title = @"Tweet!";
     
-    
+         
     self.window.rootViewController = nav;
     
     
 }
+
+
 
 @end

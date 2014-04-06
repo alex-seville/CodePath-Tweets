@@ -23,7 +23,13 @@
 @property (nonatomic, strong) NSDictionary *tweetAttributes;
 @property (nonatomic, strong) ASTwitterAPI *apiClient;
 
+
+
 @end
+
+NSString * const TweetClicked = @"TweetClicked";
+NSString * const ComposeClicked = @"ComposeClicked";
+NSString * const ProfilePhotoClicked = @"ProfilePhotoClicked";
 
 @implementation ASTimelineViewController
 
@@ -62,9 +68,6 @@
     UINib *tweetCellNib = [UINib nibWithNibName:@"ASTweetTableViewCell" bundle:nil];
     [self.timelineTableView registerNib:tweetCellNib forCellReuseIdentifier:@"ASTweetTableViewCell"];
     
-    UIBarButtonItem *composeButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"New.png"]  style:UIBarButtonItemStylePlain target:self action:@selector(onComposeButton)];
-    composeButton.tintColor = [UIColor whiteColor];
-    self.navigationItem.rightBarButtonItem = composeButton;
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(addTweetToTimeline:)
@@ -107,9 +110,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ASTweetViewController *tweetView = [[ASTweetViewController alloc] init];
-    tweetView.tweet = self.tweets[indexPath.row];
-    [self.navigationController pushViewController:tweetView animated:YES];
+    NSLog(@"Row selected");
+    [[NSNotificationCenter defaultCenter] postNotificationName:TweetClicked object:nil userInfo:[NSDictionary dictionaryWithObject:self.tweets[indexPath.row] forKey:@"tweet"]];
     [self.timelineTableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
@@ -147,20 +149,19 @@
 }
 
 - (void)onComposeButtonWithReply:(ASTweet *)tweet{
-    ASComposeTweetViewController *composeView = [[ASComposeTweetViewController alloc] init];
+    NSLog(@"Reply clicked");
+    NSDictionary *params = nil;
     
     if (tweet != nil){
-        composeView.replyIdStr = tweet.tweetIdStr;
-        composeView.replyTo = [ASUser getFormattedScreenName:tweet.user.screenName];
+        params = [NSDictionary dictionaryWithObject:@{
+                                             @"replyIdStr": tweet.tweetIdStr,
+                                             @"replyTo": tweet.user.screenName
+                                             } forKey:@"compose"];
     }
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:ComposeClicked object:nil userInfo:params];
     
-    [UIView  beginAnimations: @"ShowCompose"context: nil];
-    [UIView setAnimationCurve: UIViewAnimationCurveEaseInOut];
-    [UIView setAnimationDuration:0.75];
-    [self.navigationController pushViewController: composeView animated:NO];
-    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
-    [UIView commitAnimations];
+   
 }
 
 - (void)refresh:(UIRefreshControl *)refreshControl {
@@ -227,5 +228,12 @@
        }];
     
 }
+
+- (void) didClickProfile:(ASUser *)user {
+    NSLog(@"clicked profile, notify observers");
+    [[NSNotificationCenter defaultCenter] postNotificationName:ProfilePhotoClicked object:nil userInfo:@{@"user": user}];
+}
+
+
 
 @end

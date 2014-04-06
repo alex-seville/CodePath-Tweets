@@ -23,6 +23,7 @@
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="0.53333336114883423" green="0.82745105028152466" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+            <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="s0f-sR-NOL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zei-Wb-RwT"/>
                 <constraint firstItem="s0f-sR-NOL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="afw-T6-KuA"/>

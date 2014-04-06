@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "ASTweetTableViewCell.h"
 
+extern NSString * const TweetClicked;
+extern NSString * const ComposeClicked;
+extern NSString * const ProfilePhotoClicked;
+
 @interface ASTimelineViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, ASTweetActionsDelegate>
+
+
 
 @end
