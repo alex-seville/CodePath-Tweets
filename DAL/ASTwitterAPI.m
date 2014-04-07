@@ -7,6 +7,7 @@
 //
 
 #import "ASTwitterAPI.h"
+#import "ASUser.h"
 
 NSString * const TOKEN_REQUEST_PATH = @"oauth/request_token";
 NSString * const APP_SCHEME = @"astweet";
@@ -21,6 +22,7 @@ NSString * const POST_STATUS_RETWEET_URL = @"1.1/statuses/retweet/%@.json";
 NSString * const POST_STATUS_FAVORITE_URL = @"1.1/favorites/create.json";
 NSString * const POST_STATUS_UNFAVORITE_URL = @"1.1/favorites/destroy.json";
 NSString * const GET_MENTIONS_URL = @"1.1/statuses/mentions_timeline.json";
+NSString * const GET_MY_TWEETS_URL = @"1.1/statuses/user_timeline.json";
 
 static NSString *TWITTER_API_KEY;
 static NSString *TWITTER_API_SECRET;
@@ -147,6 +149,9 @@ static NSString *TWITTER_ACCESS_TOKEN_SECRET;
                        };
     } else if (endpointType == ASTwitterAPIEndpointMentions){
         endpointTypeStr = GET_MENTIONS_URL;
+    } else if (endpointType == ASTwitterAPIEndpointMyTweets){
+        endpointTypeStr = GET_MY_TWEETS_URL;
+        parameters = @{ @"screen_name": [ASUser currentUser].screenName };
     }
     
     return [self GET:endpointTypeStr parameters:parameters success:success failure:failure];

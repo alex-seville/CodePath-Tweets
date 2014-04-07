@@ -17,7 +17,8 @@ typedef enum  {
     ASTwitterAPIEndpointRetweet,
     ASTwitterAPIEndpointFavorite,
     ASTwitterAPIEndpointUnfavorite,
-    ASTwitterAPIEndpointMentions
+    ASTwitterAPIEndpointMentions,
+    ASTwitterAPIEndpointMyTweets
 } ASTwitterAPIEndpointType;
 
 @interface ASTwitterAPI : BDBOAuth1RequestOperationManager

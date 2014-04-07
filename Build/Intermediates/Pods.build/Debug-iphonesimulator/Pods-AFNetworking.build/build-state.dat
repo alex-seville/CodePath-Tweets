@@ -399,7 +399,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies31cf42a037f2b841^7d5c43a037f2b841^---0#1#1#--18"Check dependencies36"6CD3BA34-77D2-434C-BEE3-D845C19F1DF2-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies323a14033af2b841^ddb114033af2b841^---0#1#1#--18"Check dependencies36"63DBB515-A99E-4310-991A-EAFC80580F85-
 
 CCompileC /Users/seville/Documents/github/ios/ASTweet/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/seville/Documents/github/ios/ASTweet/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s418497775.687211

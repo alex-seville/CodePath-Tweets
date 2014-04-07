@@ -59,6 +59,10 @@
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(onShowProfile:)
                                                      name:ProfilePhotoClicked object:nil];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(onShowMyTweets)
+                                                     name:MyTweetsClicked object:nil];
     }
     return self;
 }
@@ -212,6 +216,26 @@
         /* load timeline view */
         ASTimelineViewController *timelineView = [[ASTimelineViewController alloc] init];
         timelineView.timelineType = ASTwitterAPIEndpointMentions;
+        self.contentViewController = timelineView;
+        
+        timelineView.view.frame = self.contentView.frame;
+        CGRect endFrame = CGRectMake(self.contentView.frame.size.width+20, timelineView.view.frame.origin.y, timelineView.view.frame.size.width, timelineView.view.frame.size.height );
+        timelineView.view.frame = endFrame;
+        
+        [self decorateNewView:timelineView.view];
+        [self.contentView addSubview:timelineView.view];
+        self.menuOpen = false;
+        
+        [self showView];
+    }];
+}
+
+- (void) onShowMyTweets {
+    NSLog(@"my tweets clicked");
+    [self hideCurrentView:^(void){
+        /* load timeline view */
+        ASTimelineViewController *timelineView = [[ASTimelineViewController alloc] init];
+        timelineView.timelineType = ASTwitterAPIEndpointMyTweets;
         self.contentViewController = timelineView;
         
         timelineView.view.frame = self.contentView.frame;

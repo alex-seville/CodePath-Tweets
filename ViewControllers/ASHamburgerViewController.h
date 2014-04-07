@@ -11,6 +11,7 @@
 extern NSString * const ProfileClicked;
 extern NSString * const TimelineClicked;
 extern NSString * const MentionsClicked;
+extern NSString * const MyTweetsClicked;
 
 @interface ASHamburgerViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 

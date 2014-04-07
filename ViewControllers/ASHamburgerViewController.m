@@ -17,6 +17,7 @@
 NSString * const ProfileClicked = @"ProfileClicked";
 NSString * const TimelineClicked = @"TimelineClicked";
 NSString * const MentionsClicked = @"MentionsClicked";
+NSString * const MyTweetsClicked = @"MyTweetsClicked";
 
 @implementation ASHamburgerViewController
 
@@ -25,7 +26,7 @@ NSString * const MentionsClicked = @"MentionsClicked";
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.list = @[@"Profile", @"Timeline", @"Mentions"];
+        self.list = @[@"Profile", @"Timeline", @"Mentions", @"My Tweets"];
         
     }
     return self;
@@ -66,6 +67,8 @@ NSString * const MentionsClicked = @"MentionsClicked";
         [[NSNotificationCenter defaultCenter] postNotificationName:TimelineClicked object:nil];
     } else if (indexPath.row == 2){
         [[NSNotificationCenter defaultCenter] postNotificationName:MentionsClicked object:nil];
+    } else if (indexPath.row == 3){
+        [[NSNotificationCenter defaultCenter] postNotificationName:MyTweetsClicked object:nil];
     }
     [self.menuTable deselectRowAtIndexPath:indexPath animated:NO];
 }
