@@ -125,7 +125,7 @@ NSString * const ProfilePhotoClicked = @"ProfilePhotoClicked";
     
     
     [SVProgressHUD show];
-    [self.apiClient getWithEndpointType:ASTwitterAPIEndpointTimeline success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [self.apiClient getWithEndpointType:self.timelineType success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         self.tweets = [ASTweet tweetsFromArray:responseObject];
         

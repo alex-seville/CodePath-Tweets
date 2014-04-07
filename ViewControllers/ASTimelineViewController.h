@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ASTweetTableViewCell.h"
+#import "ASTwitterAPI.h"
 
 extern NSString * const TweetClicked;
 extern NSString * const ComposeClicked;
@@ -15,6 +16,6 @@ extern NSString * const ProfilePhotoClicked;
 
 @interface ASTimelineViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, ASTweetActionsDelegate>
 
-
+@property ASTwitterAPIEndpointType timelineType;
 
 @end

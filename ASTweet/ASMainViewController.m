@@ -12,6 +12,7 @@
 #import "ASTweetViewController.h"
 #import "ASComposeTweetViewController.h"
 #import "ASProfileViewController.h"
+#import "ASTwitterAPI.h"
 
 @interface ASMainViewController ()
 
@@ -33,7 +34,7 @@
         // Custom initialization
         self.menu =[[ASHamburgerViewController alloc] init];
         ASTimelineViewController *timeline = [[ASTimelineViewController alloc] init];
-       
+        timeline.timelineType = ASTwitterAPIEndpointTimeline;
         
         self.contentViewController = timeline;
         self.menuOpen = false;
@@ -190,6 +191,7 @@
     [self hideCurrentView:^(void){
         /* load timeline view */
         ASTimelineViewController *timelineView = [[ASTimelineViewController alloc] init];
+        timelineView.timelineType = ASTwitterAPIEndpointTimeline;
         self.contentViewController = timelineView;
         
         timelineView.view.frame = self.contentView.frame;
@@ -207,7 +209,20 @@
 - (void) onMentionsClicked {
     NSLog(@"mentions clicked");
     [self hideCurrentView:^(void){
-        /* load profile view */
+        /* load timeline view */
+        ASTimelineViewController *timelineView = [[ASTimelineViewController alloc] init];
+        timelineView.timelineType = ASTwitterAPIEndpointMentions;
+        self.contentViewController = timelineView;
+        
+        timelineView.view.frame = self.contentView.frame;
+        CGRect endFrame = CGRectMake(self.contentView.frame.size.width+20, timelineView.view.frame.origin.y, timelineView.view.frame.size.width, timelineView.view.frame.size.height );
+        timelineView.view.frame = endFrame;
+        
+        [self decorateNewView:timelineView.view];
+        [self.contentView addSubview:timelineView.view];
+        self.menuOpen = false;
+        
+        [self showView];
     }];
 }
 

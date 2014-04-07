@@ -103,6 +103,7 @@
 - (void) showTimelineTable {
     ASMainViewController *mainViewController = [[ASMainViewController alloc] init];
     ASTimelineViewController *tvc = [[ASTimelineViewController alloc] init];
+    tvc.timelineType = ASTwitterAPIEndpointTimeline;
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
